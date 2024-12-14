@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the output of the following code: print(2 + 3 * 4)?",
+    "options": ["14", "20", "18", "12"],
+    "correctOption": "14",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'self' keyword in Python?",
+    "options": [
+      "It refers to the instance of the class",
+      "It refers to the class itself",
+      "It refers to a global variable",
+      "It is used to create a new object"
+    ],
+    "correctOption": "It refers to the instance of the class",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is a valid data type in Python?",
+    "options": ["int", "string", "float", "All of the above"],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "How do you create a function in Python?",
+    "options": [
+      "def function_name():",
+      "function function_name():",
+      "create function_name():",
+      "function_name := ()"
+    ],
+    "correctOption": "def function_name():",
+    "points": 10
+  },
+  {
+    "question": "What is the correct way to define a list in Python?",
+    "options": ["[1, 2, 3]", "(1, 2, 3)", "{1, 2, 3}", "<1, 2, 3>"],
+    "correctOption": "[1, 2, 3]",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is used to define a class in Python?",
+    "options": ["class", "def", "object", "struct"],
+    "correctOption": "class",
+    "points": 10
+  },
+  {
+    "question": "What is the output of the following code: print('Hello' * 3)?",
+    "options": ["'HelloHelloHello'", "'Hello3'", "'HelloHello3'", "'Hello '"],
+    "correctOption": "'HelloHelloHello'",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'range()' function in Python?",
+    "options": [
+      "Generates a sequence of numbers",
+      "Returns the length of a list",
+      "Converts a string to a list",
+      "Generates a random number"
+    ],
+    "correctOption": "Generates a sequence of numbers",
+    "points": 10
+  },
+  {
+    "question": "What does the 'len()' function do in Python?",
+    "options": [
+      "Returns the length of an object",
+      "Converts a string to a list",
+      "Finds the largest number in a list",
+      "Calculates the sum of a list"
+    ],
+    "correctOption": "Returns the length of an object",
+    "points": 10
+  },
+  {
+    "question": "How do you create a dictionary in Python?",
+    "options": [
+      "dict = {'key': 'value'}",
+      "dict = {'key' = 'value'}",
+      "dict = ('key', 'value')",
+      "dict = key: value"
+    ],
+    "correctOption": "dict = {'key': 'value'}",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is used to import a module in Python?",
+    "options": ["import", "include", "load", "use"],
+    "correctOption": "import",
+    "points": 10
+  },
+  {
+    "question": "What does the 'break' statement do in Python?",
+    "options": [
+      "Exits from the current loop",
+      "Pauses the loop",
+      "Skips to the next iteration of the loop",
+      "Exits from the function"
+    ],
+    "correctOption": "Exits from the current loop",
+    "points": 10
+  },
+  {
+    "question": "What is the output of the following code: print(3 / 2)?",
+    "options": ["1.5", "1", "2", "3"],
+    "correctOption": "1.5",
+    "points": 10
+  },
+  {
+    "question": "What is the correct way to open a file for reading in Python?",
+    "options": [
+      "open('file.txt', 'r')",
+      "file.open('file.txt', 'r')",
+      "open('file.txt')",
+      "open('file.txt', 'read')"
+    ],
+    "correctOption": "open('file.txt', 'r')",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to add an element to a list in Python?",
+    "options": ["append()", "add()", "insert()", "push()"],
+    "correctOption": "append()",
+    "points": 10
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["def", "func", "function", "define"],
+    "correctOption": "def",
+    "points": 10
+  },
+  {
+    "question": "What is a tuple in Python?",
+    "options": [
+      "An immutable sequence of items",
+      "A mutable sequence of items",
+      "A function",
+      "A dictionary"
+    ],
+    "correctOption": "An immutable sequence of items",
+    "points": 10
+  },
+  {
+    "question": "What is the output of the following code: print(type(3.5))?",
+    "options": [
+      "<class 'float'>",
+      "<class 'int'>",
+      "<class 'str'>",
+      "<class 'list'>"
+    ],
+    "correctOption": "<class 'float'>",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'pass' statement in Python?",
+    "options": [
+      "It acts as a placeholder for future code",
+      "It exits the function",
+      "It throws an error",
+      "It defines a variable"
+    ],
+    "correctOption": "It acts as a placeholder for future code",
+    "points": 10
+  },
+  {
+    "question": "How can you handle exceptions in Python?",
+    "options": [
+      "using try-except blocks",
+      "using catch blocks",
+      "using if-else statements",
+      "using exception()"
+    ],
+    "correctOption": "using try-except blocks",
+    "points": 10
+  },
+  {
+    "question": "What will be the output of the following code: print('Python'[::-1])?",
+    "options": ["nohtyP", "Ptyhon", "Pytho", "Python"],
+    "correctOption": "nohtyP",
+    "points": 10
+  },
+  {
+    "question": "What is the difference between '==' and 'is' in Python?",
+    "options": [
+      "'==' compares values, 'is' compares object identity",
+      "'==' compares object identity, 'is' compares values",
+      "'==' compares data types, 'is' compares values",
+      "'==' compares references, 'is' compares data types"
+    ],
+    "correctOption": "'==' compares values, 'is' compares object identity",
+    "points": 10
+  },
+  {
+    "question": "What does the 'del' statement do in Python?",
+    "options": [
+      "Deletes a variable",
+      "Deletes an element from a list",
+      "Deletes a dictionary key",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is the output of the following code: print(5 + 10 * 2)?",
+    "options": ["25", "30", "20", "15"],
+    "correctOption": "25",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is used to iterate over a sequence in Python?",
+    "options": ["for", "while", "repeat", "loop"],
+    "correctOption": "for",
+    "points": 10
+  },
+  {
+    "question": "What does the 'join()' method do in Python?",
+    "options": [
+      "Joins elements of a sequence into a string",
+      "Joins two lists",
+      "Joins two strings",
+      "Joins elements of a dictionary"
+    ],
+    "correctOption": "Joins elements of a sequence into a string",
+    "points": 10
+  },
+  {
+    "question": "What is the output of the following code: print('10' + 10)?",
+    "options": ["Error", "1010", "20", "110"],
+    "correctOption": "Error",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is used to define a function in Python?",
+    "options": ["def", "function", "fun", "lambda"],
+    "correctOption": "def",
+    "points": 10
+  },
+  {
+    "question": "Which of these data types is immutable in Python?",
+    "options": ["list", "dictionary", "set", "tuple"],
+    "correctOption": "tuple",
+    "points": 10
+  },
+  {
+    "question": "What is the correct way to create a set in Python?",
+    "options": ["{}", "[]", "()", "set()"],
+    "correctOption": "set()",
+    "points": 10
+  }
+]

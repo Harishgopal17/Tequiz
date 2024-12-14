@@ -1,0 +1,272 @@
+[
+  {
+    "question": "What does PHP stand for?",
+    "options": [
+      "Personal Hypertext Processor",
+      "PHP: Hypertext Preprocessor",
+      "Private Home Page",
+      "Programming Hypertext Processor"
+    ],
+    "correctOption": "PHP: Hypertext Preprocessor",
+    "points": 10
+  },
+  {
+    "question": "Which symbol is used to start a PHP variable?",
+    "options": ["$", "#", "@", "&"],
+    "correctOption": "$",
+    "points": 10
+  },
+  {
+    "question": "Which function is used to output text in PHP?",
+    "options": ["print()", "echo()", "write()", "display()"],
+    "correctOption": "echo()",
+    "points": 10
+  },
+  {
+    "question": "Which PHP tag is used to write PHP code?",
+    "options": ["<?php ?>", "<php>", "<script>", "<? ?>"],
+    "correctOption": "<?php ?>",
+    "points": 10
+  },
+  {
+    "question": "Which function is used to get the length of a string in PHP?",
+    "options": ["strlen()", "strlength()", "string_length()", "length()"],
+    "correctOption": "strlen()",
+    "points": 10
+  },
+  {
+    "question": "How can you declare an array in PHP?",
+    "options": [
+      "$arr = array();",
+      "$arr = [];",
+      "$arr = array[];",
+      "Both $arr = array(); and $arr = [];"
+    ],
+    "correctOption": "Both $arr = array(); and $arr = [];",
+    "points": 10
+  },
+  {
+    "question": "What is the default file extension for PHP files?",
+    "options": [".php", ".html", ".js", ".css"],
+    "correctOption": ".php",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is used to include one PHP file into another?",
+    "options": ["include", "require", "Both include and require", "import"],
+    "correctOption": "Both include and require",
+    "points": 10
+  },
+  {
+    "question": "How do you start a session in PHP?",
+    "options": [
+      "session_start();",
+      "start_session();",
+      "begin_session();",
+      "session.begin();"
+    ],
+    "correctOption": "session_start();",
+    "points": 10
+  },
+  {
+    "question": "What does isset() function do in PHP?",
+    "options": [
+      "Checks if a variable is set and is not NULL",
+      "Initializes a variable",
+      "Returns the value of a variable",
+      "Deletes a variable"
+    ],
+    "correctOption": "Checks if a variable is set and is not NULL",
+    "points": 10
+  },
+  {
+    "question": "Which function is used to connect to a MySQL database in PHP?",
+    "options": [
+      "mysqli_connect()",
+      "mysql_connect()",
+      "connect()",
+      "db_connect()"
+    ],
+    "correctOption": "mysqli_connect()",
+    "points": 10
+  },
+  {
+    "question": "How do you retrieve form data submitted via POST in PHP?",
+    "options": [
+      "$_POST['field_name']",
+      "$_GET['field_name']",
+      "$_REQUEST['field_name']",
+      "$_FIELD['field_name']"
+    ],
+    "correctOption": "$_POST['field_name']",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to redirect to another page in PHP?",
+    "options": [
+      "header('Location: url');",
+      "redirect('url');",
+      "move('url');",
+      "navigate('url');"
+    ],
+    "correctOption": "header('Location: url');",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the PHP die() function?",
+    "options": [
+      "Terminates the script",
+      "Pauses the script",
+      "Exits the browser",
+      "Throws an error"
+    ],
+    "correctOption": "Terminates the script",
+    "points": 10
+  },
+  {
+    "question": "How can you include a file conditionally in PHP?",
+    "options": [
+      "if (file_exists('file.php')) { include 'file.php'; }",
+      "if (is_file('file.php')) { require 'file.php'; }",
+      "if (exists('file.php')) { include 'file.php'; }",
+      "Both A and B"
+    ],
+    "correctOption": "Both A and B",
+    "points": 10
+  },
+  {
+    "question": "How do you add a comment in PHP?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "Which PHP function is used to generate a random number?",
+    "options": ["rand()", "random()", "generate()", "randomNumber()"],
+    "correctOption": "rand()",
+    "points": 10
+  },
+  {
+    "question": "How can you retrieve the IP address of the client in PHP?",
+    "options": [
+      "$_SERVER['REMOTE_ADDR']",
+      "$_SERVER['IP_ADDRESS']",
+      "$_ENV['CLIENT_IP']",
+      "$_ENV['REMOTE_ADDR']"
+    ],
+    "correctOption": "$_SERVER['REMOTE_ADDR']",
+    "points": 10
+  },
+  {
+    "question": "Which superglobal variable stores information about headers, paths, and script locations?",
+    "options": ["$_SERVER", "$GLOBALS", "$_SESSION", "$_FILES"],
+    "correctOption": "$_SERVER",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the explode() function in PHP?",
+    "options": [
+      "Splits a string into an array",
+      "Joins an array into a string",
+      "Reverses a string",
+      "Encodes a string"
+    ],
+    "correctOption": "Splits a string into an array",
+    "points": 10
+  },
+  {
+    "question": "How can you create a constant in PHP?",
+    "options": [
+      "define('CONSTANT', 'value');",
+      "$CONSTANT = 'value';",
+      "const CONSTANT = 'value';",
+      "Both A and C"
+    ],
+    "correctOption": "Both A and C",
+    "points": 10
+  },
+  {
+    "question": "Which function is used to get the type of a variable in PHP?",
+    "options": ["gettype()", "typeof()", "varType()", "typeOfVariable()"],
+    "correctOption": "gettype()",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the isset() function in PHP?",
+    "options": [
+      "Checks if a variable is set",
+      "Deletes a variable",
+      "Checks if a variable is an array",
+      "Initializes a variable"
+    ],
+    "correctOption": "Checks if a variable is set",
+    "points": 10
+  },
+  {
+    "question": "How do you end a PHP script?",
+    "options": ["?>", "//", "End;", "exit;"],
+    "correctOption": "?>",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the PHP trim() function?",
+    "options": [
+      "Removes whitespace from the beginning and end of a string",
+      "Converts a string to uppercase",
+      "Reverses a string",
+      "Trims an array"
+    ],
+    "correctOption": "Removes whitespace from the beginning and end of a string",
+    "points": 10
+  },
+  {
+    "question": "What is the default data type of a variable in PHP?",
+    "options": ["String", "Integer", "Dynamic", "Undefined"],
+    "correctOption": "Dynamic",
+    "points": 10
+  },
+  {
+    "question": "Which PHP function is used to check if a value exists in an array?",
+    "options": [
+      "in_array()",
+      "array_search()",
+      "exists_in_array()",
+      "find_in_array()"
+    ],
+    "correctOption": "in_array()",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the PHP array_merge() function?",
+    "options": [
+      "Merges two or more arrays into one",
+      "Splits an array into two parts",
+      "Finds the intersection of two arrays",
+      "Finds the difference between two arrays"
+    ],
+    "correctOption": "Merges two or more arrays into one",
+    "points": 10
+  },
+  {
+    "question": "How can you generate a timestamp in PHP?",
+    "options": ["time()", "timestamp()", "get_time()", "generate_timestamp()"],
+    "correctOption": "time()",
+    "points": 10
+  },
+  {
+    "question": "What is the use of the PHP json_encode() function?",
+    "options": [
+      "Converts PHP objects or arrays into JSON format",
+      "Converts JSON into PHP arrays",
+      "Encodes a string",
+      "Encrypts data"
+    ],
+    "correctOption": "Converts PHP objects or arrays into JSON format",
+    "points": 10
+  }
+]

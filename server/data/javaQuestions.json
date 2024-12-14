@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What does JVM stand for?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Manager",
+      "Java Value Modifier",
+      "Java Virtual Modifier"
+    ],
+    "correctOption": "Java Virtual Machine",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is the default value of a boolean in Java?",
+    "options": ["true", "false", "null", "0"],
+    "correctOption": "false",
+    "points": 10
+  },
+  {
+    "question": "Which of these is used to define a constant in Java?",
+    "options": ["final", "constant", "static", "immutable"],
+    "correctOption": "final",
+    "points": 10
+  },
+  {
+    "question": "What is the default value of an object reference in Java?",
+    "options": ["null", "0", "undefined", "empty"],
+    "correctOption": "null",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is not a primitive data type in Java?",
+    "options": ["int", "boolean", "char", "String"],
+    "correctOption": "String",
+    "points": 10
+  },
+  {
+    "question": "Which of these methods is used to start a thread in Java?",
+    "options": ["run()", "start()", "execute()", "begin()"],
+    "correctOption": "start()",
+    "points": 10
+  },
+  {
+    "question": "What is the size of a byte in Java?",
+    "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+    "correctOption": "8 bits",
+    "points": 10
+  },
+  {
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["extends", "inherits", "super", "this"],
+    "correctOption": "extends",
+    "points": 10
+  },
+  {
+    "question": "Which of these is used to handle exceptions in Java?",
+    "options": ["try-catch", "throw-catch", "do-while", "if-else"],
+    "correctOption": "try-catch",
+    "points": 10
+  },
+  {
+    "question": "What is the correct way to declare a multi-line comment in Java?",
+    "options": [
+      "/* comment */",
+      "// comment //",
+      "<!-- comment -->",
+      "-- comment --"
+    ],
+    "correctOption": "/* comment */",
+    "points": 10
+  },
+  {
+    "question": "Which of these keywords is used to prevent a method from being overridden in Java?",
+    "options": ["final", "static", "private", "abstract"],
+    "correctOption": "final",
+    "points": 10
+  },
+  {
+    "question": "Which of these methods is used to find the length of a string in Java?",
+    "options": ["length()", "size()", "count()", "length"],
+    "correctOption": "length()",
+    "points": 10
+  },
+  {
+    "question": "What does the 'super' keyword refer to in Java?",
+    "options": [
+      "The parent class of the current object",
+      "The current class",
+      "The static methods of the current class",
+      "The interface implemented by the current class"
+    ],
+    "correctOption": "The parent class of the current object",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'static' keyword in Java?",
+    "options": [
+      "To make a method or variable accessible without creating an instance of the class",
+      "To declare a constant value",
+      "To make a method abstract",
+      "To inherit properties from a class"
+    ],
+    "correctOption": "To make a method or variable accessible without creating an instance of the class",
+    "points": 10
+  },
+  {
+    "question": "Which of these is used to implement polymorphism in Java?",
+    "options": [
+      "Method overloading and overriding",
+      "Method overloading only",
+      "Method overriding only",
+      "Method hiding"
+    ],
+    "correctOption": "Method overloading and overriding",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is used to create a thread in Java?",
+    "options": [
+      "Thread class",
+      "Runnable interface",
+      "Runnable class",
+      "Thread interface"
+    ],
+    "correctOption": "Thread class",
+    "points": 10
+  },
+  {
+    "question": "Which collection class is ordered in Java?",
+    "options": ["ArrayList", "HashSet", "HashMap", "TreeSet"],
+    "correctOption": "ArrayList",
+    "points": 10
+  },
+  {
+    "question": "Which of these methods is used to stop a thread in Java?",
+    "options": ["stop()", "terminate()", "end()", "exit()"],
+    "correctOption": "stop()",
+    "points": 10
+  },
+  {
+    "question": "Which class is the superclass of all classes in Java?",
+    "options": ["Object", "String", "Thread", "System"],
+    "correctOption": "Object",
+    "points": 10
+  },
+  {
+    "question": "Which of these access modifiers allows the highest level of access in Java?",
+    "options": ["public", "private", "protected", "default"],
+    "correctOption": "public",
+    "points": 10
+  },
+  {
+    "question": "What is the main use of the 'final' keyword in Java?",
+    "options": [
+      "To restrict inheritance or modification of methods, variables, or classes",
+      "To define an abstract class",
+      "To declare an array",
+      "To mark a method as synchronized"
+    ],
+    "correctOption": "To restrict inheritance or modification of methods, variables, or classes",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to compare two strings in Java?",
+    "options": ["equals()", "compareTo()", "isEqual()", "compare()"],
+    "correctOption": "equals()",
+    "points": 10
+  },
+  {
+    "question": "Which of these exceptions is thrown when a null object is accessed in Java?",
+    "options": [
+      "NullPointerException",
+      "ArrayIndexOutOfBoundsException",
+      "ClassCastException",
+      "IOException"
+    ],
+    "correctOption": "NullPointerException",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is an example of a functional interface in Java?",
+    "options": ["Runnable", "Serializable", "Cloneable", "Iterable"],
+    "correctOption": "Runnable",
+    "points": 10
+  },
+  {
+    "question": "What does 'this' keyword refer to in Java?",
+    "options": [
+      "The current object",
+      "The parent class",
+      "The static method of the current class",
+      "A reference to a method"
+    ],
+    "correctOption": "The current object",
+    "points": 10
+  },
+  {
+    "question": "What is the output of the following code snippet? 'int x = 5; System.out.println(x + 5);'",
+    "options": ["10", "15", "5", "Compilation error"],
+    "correctOption": "10",
+    "points": 10
+  },
+  {
+    "question": "What does 'abstract' mean when used with a class or method in Java?",
+    "options": [
+      "It cannot be instantiated or called directly",
+      "It can be instantiated but not extended",
+      "It can be called directly without any instance",
+      "It can only be called from an instance"
+    ],
+    "correctOption": "It cannot be instantiated or called directly",
+    "points": 10
+  },
+  {
+    "question": "Which of these is an interface in Java?",
+    "options": ["Runnable", "Thread", "String", "Integer"],
+    "correctOption": "Runnable",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'instanceof' operator in Java?",
+    "options": [
+      "To check if an object is an instance of a specific class or subclass",
+      "To create a new instance of a class",
+      "To compare two objects",
+      "To check if a method is available"
+    ],
+    "correctOption": "To check if an object is an instance of a specific class or subclass",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'transient' keyword in Java?",
+    "options": [
+      "To prevent serialization of a field",
+      "To make a field final",
+      "To ensure a field is always initialized",
+      "To mark a field as static"
+    ],
+    "correctOption": "To prevent serialization of a field",
+    "points": 10
+  }
+]

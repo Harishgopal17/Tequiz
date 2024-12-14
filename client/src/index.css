@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Codystar:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #212529;
+}
+
+.btn {
+  /* display: block; */
+  font-family: inherit;
+  color: inherit;
+  font-size: 18px;
+  border: 1px solid transparent;
+  background-color: #ececec;
+  padding: 12px 30px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.btn:not([disabled]):hover {
+  background-color: #838383;
+  border: 1px solid #adaeb0;
+}
+
+.btn-option:not([disabled]):hover {
+  transform: translateX(1.2rem);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+}
+
+.btn-option {
+  width: 100%;
+  text-align: left;
+}
+
+.btn-option.correct {
+  background-color: #75b687;
+  border: 1px solid #75b687;
+  color: inherit;
+}
+.btn-option.wrong {
+  background-color: #ff6b6b;
+  border: 1px solid #ff6b6b;
+  color: inherit;
+}
+
+.answer {
+  transform: translateX(20px);
+}
+
+.loader {
+  width: 50px;
+  height: 24px;
+  background: radial-gradient(circle closest-side, currentColor 90%, #0000) 0%
+      50%,
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 50% 50%,
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 100% 50%;
+  background-size: calc(100% / 3) 12px;
+  background-repeat: no-repeat;
+  animation: loader 1s infinite linear;
+}
+
+@keyframes loader {
+  20% {
+    background-position: 0% 0%, 50% 50%, 100% 50%;
+  }
+  40% {
+    background-position: 0% 100%, 50% 0%, 100% 50%;
+  }
+  60% {
+    background-position: 0% 50%, 50% 100%, 100% 0%;
+  }
+  80% {
+    background-position: 0% 50%, 50% 50%, 100% 100%;
+  }
+}
+
+@layer utilities {
+  .max-container {
+    @apply max-w-[1360px] mx-auto;
+  }
+  .container {
+    @apply max-w-[1100px] mx-auto;
+  }
+  .input {
+    @apply w-full p-2 border border-transparent bg-[#e6e6e6] focus:bg-[#f5f5f5] outline-none text-base rounded-md focus:border-[#1f2129af] dark:bg-dark-bg dark:focus:bg-zinc-800 transition-all duration-300;
+  }
+}
+
+.loading {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  border: 0.4rem solid #588865;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: 0.8s ease infinite alternate pre-loader;
+}
+
+@keyframes pre-loader {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(1turn) scale(1.2);
+  }
+}

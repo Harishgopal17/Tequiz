@@ -1,0 +1,272 @@
+[
+  {
+    "question": "What does AI stand for?",
+    "options": [
+      "Artificial Intelligence",
+      "Automatic Integration",
+      "Artificial Integration",
+      "Automated Intelligence"
+    ],
+    "correctOption": "Artificial Intelligence",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is a key component of AI?",
+    "options": [
+      "Machine Learning",
+      "Cloud Computing",
+      "Database Management",
+      "All of the above"
+    ],
+    "correctOption": "Machine Learning",
+    "points": 10
+  },
+  {
+    "question": "Which programming language is commonly used for AI development?",
+    "options": ["Python", "Java", "C++", "All of the above"],
+    "correctOption": "Python",
+    "points": 10
+  },
+  {
+    "question": "What is the primary goal of AI?",
+    "options": [
+      "To make machines think like humans",
+      "To reduce the cost of hardware",
+      "To increase energy efficiency",
+      "To replace human workers"
+    ],
+    "correctOption": "To make machines think like humans",
+    "points": 10
+  },
+  {
+    "question": "What does 'machine learning' involve?",
+    "options": [
+      "Teaching machines to learn from data",
+      "Writing hard-coded instructions",
+      "Automating tasks without any data",
+      "Programming machines with exact rules"
+    ],
+    "correctOption": "Teaching machines to learn from data",
+    "points": 10
+  },
+  {
+    "question": "What is 'deep learning' in AI?",
+    "options": [
+      "A subset of machine learning using neural networks",
+      "A type of database management system",
+      "A way to improve hardware performance",
+      "A method for reducing energy consumption"
+    ],
+    "correctOption": "A subset of machine learning using neural networks",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is an example of AI in everyday life?",
+    "options": [
+      "Voice assistants like Siri and Alexa",
+      "Refrigerators",
+      "Smartphones",
+      "Televisions"
+    ],
+    "correctOption": "Voice assistants like Siri and Alexa",
+    "points": 10
+  },
+  {
+    "question": "What is a neural network in the context of AI?",
+    "options": [
+      "A system modeled after the human brain for pattern recognition",
+      "A database used for storing large data sets",
+      "A hardware component that speeds up calculations",
+      "A system for managing AI hardware resources"
+    ],
+    "correctOption": "A system modeled after the human brain for pattern recognition",
+    "points": 10
+  },
+  {
+    "question": "What is the Turing Test used to evaluate?",
+    "options": [
+      "A machine's ability to exhibit intelligent behavior equivalent to that of a human",
+      "The speed of a computer's processor",
+      "The energy efficiency of an AI model",
+      "The accuracy of AI predictions"
+    ],
+    "correctOption": "A machine's ability to exhibit intelligent behavior equivalent to that of a human",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is an application of AI in healthcare?",
+    "options": [
+      "Disease diagnosis using machine learning models",
+      "Automated surgery",
+      "Robotic patient care",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is reinforcement learning in AI?",
+    "options": [
+      "A type of machine learning where agents learn by interacting with an environment",
+      "A method for improving hardware components",
+      "A database management technique",
+      "A strategy for reducing energy usage"
+    ],
+    "correctOption": "A type of machine learning where agents learn by interacting with an environment",
+    "points": 10
+  },
+  {
+    "question": "What is a chatbot?",
+    "options": [
+      "A conversational AI used for customer service",
+      "A hardware device for communication",
+      "A voice assistant for controlling smart devices",
+      "A virtual assistant for managing data"
+    ],
+    "correctOption": "A conversational AI used for customer service",
+    "points": 10
+  },
+  {
+    "question": "Which AI technique is commonly used for image recognition?",
+    "options": [
+      "Convolutional Neural Networks (CNNs)",
+      "Support Vector Machines (SVMs)",
+      "Random Forests",
+      "K-means clustering"
+    ],
+    "correctOption": "Convolutional Neural Networks (CNNs)",
+    "points": 10
+  },
+  {
+    "question": "What is natural language processing (NLP)?",
+    "options": [
+      "A field of AI focused on the interaction between computers and human language",
+      "A method for training machine learning models",
+      "A type of neural network for image recognition",
+      "A hardware architecture for AI applications"
+    ],
+    "correctOption": "A field of AI focused on the interaction between computers and human language",
+    "points": 10
+  },
+  {
+    "question": "What is 'overfitting' in machine learning?",
+    "options": [
+      "When a model learns the training data too well, leading to poor generalization",
+      "When a model is under-trained",
+      "When a model performs equally well on training and test data",
+      "When the model is too simple"
+    ],
+    "correctOption": "When a model learns the training data too well, leading to poor generalization",
+    "points": 10
+  },
+  {
+    "question": "What is 'bias' in machine learning?",
+    "options": [
+      "When the model systematically makes errors in one direction",
+      "When a model has too many features",
+      "When the training data is too large",
+      "When the model learns too quickly"
+    ],
+    "correctOption": "When the model systematically makes errors in one direction",
+    "points": 10
+  },
+  {
+    "question": "What is the difference between AI and traditional programming?",
+    "options": [
+      "AI systems learn from data, while traditional programming uses explicit rules",
+      "AI is faster than traditional programming",
+      "Traditional programming is more accurate than AI",
+      "There is no difference between AI and traditional programming"
+    ],
+    "correctOption": "AI systems learn from data, while traditional programming uses explicit rules",
+    "points": 10
+  },
+  {
+    "question": "What is the 'AI Winter'?",
+    "options": [
+      "A period of reduced funding and interest in AI research",
+      "A phase of rapid growth in AI technologies",
+      "A time when AI models become too complex to manage",
+      "A period of high demand for AI professionals"
+    ],
+    "correctOption": "A period of reduced funding and interest in AI research",
+    "points": 10
+  },
+  {
+    "question": "What does the term 'singularity' mean in AI?",
+    "options": [
+      "The point at which AI surpasses human intelligence",
+      "A type of neural network",
+      "A form of AI that operates in isolation",
+      "The point where AI is no longer controllable"
+    ],
+    "correctOption": "The point at which AI surpasses human intelligence",
+    "points": 10
+  },
+  {
+    "question": "What is 'transfer learning' in AI?",
+    "options": [
+      "Using a model trained on one task and applying it to a different but related task",
+      "Transferring data between different machines",
+      "Learning from unstructured data",
+      "Transferring knowledge from humans to machines"
+    ],
+    "correctOption": "Using a model trained on one task and applying it to a different but related task",
+    "points": 10
+  },
+  {
+    "question": "What is an AI-powered recommendation system?",
+    "options": [
+      "A system that suggests products, content, or actions based on user preferences and behavior",
+      "A system that analyzes user feedback for improving AI models",
+      "A system that creates advertisements for users",
+      "A system that determines the popularity of web pages"
+    ],
+    "correctOption": "A system that suggests products, content, or actions based on user preferences and behavior",
+    "points": 10
+  },
+  {
+    "question": "What is a 'decision tree' in machine learning?",
+    "options": [
+      "A model that makes decisions based on a series of branching conditions",
+      "A type of neural network for image recognition",
+      "A method for clustering data",
+      "A method for optimizing AI performance"
+    ],
+    "correctOption": "A model that makes decisions based on a series of branching conditions",
+    "points": 10
+  },
+  {
+    "question": "What is 'data mining' in the context of AI?",
+    "options": [
+      "The process of analyzing large datasets to uncover patterns or insights",
+      "The process of cleaning data",
+      "The process of generating random data",
+      "The process of storing data securely"
+    ],
+    "correctOption": "The process of analyzing large datasets to uncover patterns or insights",
+    "points": 10
+  },
+  {
+    "question": "What does 'AI Ethics' focus on?",
+    "options": [
+      "The moral implications and responsible use of AI technology",
+      "The optimization of AI algorithms",
+      "The hardware requirements for AI models",
+      "The efficiency of AI in business applications"
+    ],
+    "correctOption": "The moral implications and responsible use of AI technology",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is an example of an AI technique used for pattern recognition?",
+    "options": [
+      "Neural Networks",
+      "Random Forest",
+      "Decision Trees",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  }
+]

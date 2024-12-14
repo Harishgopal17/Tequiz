@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Which HTML tag is used to define a paragraph?",
+    "options": ["<div>", "<p>", "<span>", "<section>"],
+    "correctOption": "<p>",
+    "points": 10
+  },
+  {
+    "question": "What is the correct HTML tag for the largest heading?",
+    "options": ["<h6>", "<heading>", "<h1>", "<header>"],
+    "correctOption": "<h1>",
+    "points": 10
+  },
+  {
+    "question": "Which attribute is used to specify a unique identifier for an HTML element?",
+    "options": ["class", "id", "name", "style"],
+    "correctOption": "id",
+    "points": 10
+  },
+  {
+    "question": "Which HTML tag is used to create an unordered list?",
+    "options": ["<ul>", "<ol>", "<li>", "<list>"],
+    "correctOption": "<ul>",
+    "points": 10
+  },
+  {
+    "question": "What does the <a> tag in HTML represent?",
+    "options": ["Image", "Link", "Audio", "Button"],
+    "correctOption": "Link",
+    "points": 10
+  },
+  {
+    "question": "Which attribute in HTML is used to provide alternate text for an image?",
+    "options": ["alt", "src", "title", "href"],
+    "correctOption": "alt",
+    "points": 10
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "Hyperlink Text Markup Language",
+      "HighText Machine Language",
+      "HyperText Machine Language"
+    ],
+    "correctOption": "HyperText Markup Language",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to add a line break in HTML?",
+    "options": ["<br>", "<lb>", "<break>", "<newline>"],
+    "correctOption": "<br>",
+    "points": 10
+  },
+  {
+    "question": "What is the default alignment for text in an HTML document?",
+    "options": ["Center", "Left", "Right", "Justify"],
+    "correctOption": "Left",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to create a table row in HTML?",
+    "options": ["<td>", "<th>", "<tr>", "<table>"],
+    "correctOption": "<tr>",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the <meta> tag in HTML?",
+    "options": [
+      "To define the title of the document",
+      "To provide metadata about the document",
+      "To link external files",
+      "To add styles"
+    ],
+    "correctOption": "To provide metadata about the document",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to embed a video in an HTML page?",
+    "options": ["<video>", "<media>", "<embed>", "<movie>"],
+    "correctOption": "<video>",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to create a drop-down list in HTML?",
+    "options": ["<select>", "<dropdown>", "<option>", "<list>"],
+    "correctOption": "<select>",
+    "points": 10
+  },
+  {
+    "question": "Which input type is used for a slider in HTML?",
+    "options": ["text", "range", "number", "slider"],
+    "correctOption": "range",
+    "points": 10
+  },
+  {
+    "question": "Which element is used to define the header of a document or section?",
+    "options": ["<header>", "<head>", "<section>", "<div>"],
+    "correctOption": "<header>",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the <canvas> element in HTML?",
+    "options": [
+      "To draw graphics",
+      "To display images",
+      "To add styles",
+      "To embed videos"
+    ],
+    "correctOption": "To draw graphics",
+    "points": 10
+  },
+  {
+    "question": "What is the correct way to add comments in HTML?",
+    "options": ["<!-- Comment -->", "// Comment", "/* Comment */", "# Comment"],
+    "correctOption": "<!-- Comment -->",
+    "points": 10
+  },
+  {
+    "question": "Which attribute is used to open a link in a new tab?",
+    "options": [
+      "target='_self'",
+      "target='_blank'",
+      "target='_new'",
+      "new='_tab'"
+    ],
+    "correctOption": "target='_blank'",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to define an inline frame in HTML?",
+    "options": ["<iframe>", "<frame>", "<embed>", "<inline>"],
+    "correctOption": "<iframe>",
+    "points": 10
+  },
+  {
+    "question": "What is the default display value for the <div> element?",
+    "options": ["inline", "block", "inline-block", "flex"],
+    "correctOption": "block",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to define a form in HTML?",
+    "options": ["<form>", "<input>", "<textarea>", "<fieldset>"],
+    "correctOption": "<form>",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to emphasize text in HTML?",
+    "options": ["<strong>", "<b>", "<em>", "<i>"],
+    "correctOption": "<em>",
+    "points": 10
+  },
+  {
+    "question": "What does the <nav> tag in HTML represent?",
+    "options": ["Navigation links", "Sidebar", "Footer", "Header"],
+    "correctOption": "Navigation links",
+    "points": 10
+  },
+  {
+    "question": "Which input type is used for entering an email address?",
+    "options": ["text", "email", "number", "url"],
+    "correctOption": "email",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to define a clickable button in HTML?",
+    "options": ["<input>", "<button>", "<click>", "<control>"],
+    "correctOption": "<button>",
+    "points": 10
+  },
+  {
+    "question": "Which element is used to define important text in HTML?",
+    "options": ["<strong>", "<important>", "<highlight>", "<b>"],
+    "correctOption": "<strong>",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to group block elements in HTML?",
+    "options": ["<div>", "<span>", "<block>", "<group>"],
+    "correctOption": "<div>",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to specify a term in a definition list?",
+    "options": ["<dl>", "<dt>", "<dd>", "<li>"],
+    "correctOption": "<dt>",
+    "points": 10
+  },
+  {
+    "question": "Which attribute is used to specify a URL in the <a> tag?",
+    "options": ["href", "url", "src", "link"],
+    "correctOption": "href",
+    "points": 10
+  },
+  {
+    "question": "Which tag is used to create a horizontal line in HTML?",
+    "options": ["<hr>", "<line>", "<hl>", "<break>"],
+    "correctOption": "<hr>",
+    "points": 10
+  }
+]

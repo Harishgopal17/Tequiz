@@ -1,0 +1,227 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "correctOption": "Cascading Style Sheets",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to change the background color of an element?",
+    "options": ["color", "background", "background-color", "bgcolor"],
+    "correctOption": "background-color",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to change the text color of an element?",
+    "options": ["text-color", "color", "font-color", "foreground-color"],
+    "correctOption": "color",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": ["font-style", "text-size", "font-size", "size"],
+    "correctOption": "font-size",
+    "points": 10
+  },
+  {
+    "question": "How do you make a list not display bullet points?",
+    "options": [
+      "list-type: none",
+      "list-style: none",
+      "text-style: none",
+      "bullet-style: none"
+    ],
+    "correctOption": "list-style: none",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "options": ["font", "font-family", "font-style", "text-font"],
+    "correctOption": "font-family",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to add space inside an element's border?",
+    "options": ["margin", "padding", "border-spacing", "spacing"],
+    "correctOption": "padding",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to add space outside an element's border?",
+    "options": ["margin", "padding", "border-spacing", "spacing"],
+    "correctOption": "margin",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property is used to make text bold?",
+    "options": ["font-weight", "font-style", "text-weight", "bold"],
+    "correctOption": "font-weight",
+    "points": 10
+  },
+  {
+    "question": "How do you select an element with the ID 'header' in CSS?",
+    "options": ["header", "#header", ".header", "*header"],
+    "correctOption": "#header",
+    "points": 10
+  },
+  {
+    "question": "How do you select all elements with the class 'btn' in CSS?",
+    "options": [".btn", "#btn", "btn", "*btn"],
+    "correctOption": ".btn",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to change the alignment of text?",
+    "options": ["align", "text-align", "text-style", "text-position"],
+    "correctOption": "text-align",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property is used to set the spacing between lines of text?",
+    "options": ["line-spacing", "line-height", "spacing", "text-spacing"],
+    "correctOption": "line-height",
+    "points": 10
+  },
+  {
+    "question": "Which value of the position property will position an element relative to its nearest positioned ancestor?",
+    "options": ["static", "relative", "absolute", "fixed"],
+    "correctOption": "absolute",
+    "points": 10
+  },
+  {
+    "question": "What is the default value of the position property?",
+    "options": ["static", "relative", "absolute", "fixed"],
+    "correctOption": "static",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property is used to control the stacking order of elements?",
+    "options": ["z-order", "stack", "z-index", "order"],
+    "correctOption": "z-index",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property is used to create rounded corners?",
+    "options": [
+      "border-style",
+      "corner-radius",
+      "border-radius",
+      "round-corners"
+    ],
+    "correctOption": "border-radius",
+    "points": 10
+  },
+  {
+    "question": "How do you make an element take up the entire width of its parent container?",
+    "options": ["width: 100px", "width: full", "width: inherit", "width: 100%"],
+    "correctOption": "width: 100%",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to specify the transparency of an element?",
+    "options": ["visibility", "opacity", "filter", "transparent"],
+    "correctOption": "opacity",
+    "points": 10
+  },
+  {
+    "question": "How do you apply a shadow to an element in CSS?",
+    "options": ["box-shadow", "element-shadow", "shadow", "box-shadow-color"],
+    "correctOption": "box-shadow",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property is used to control the space between letters in text?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "text-spacing",
+      "line-spacing"
+    ],
+    "correctOption": "letter-spacing",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property is used to transform text to uppercase?",
+    "options": [
+      "text-transform",
+      "text-case",
+      "text-decoration",
+      "transform-text"
+    ],
+    "correctOption": "text-transform",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the overflow property in CSS?",
+    "options": [
+      "To hide overflowing content",
+      "To control text alignment",
+      "To add margins",
+      "To set font size"
+    ],
+    "correctOption": "To hide overflowing content",
+    "points": 10
+  },
+  {
+    "question": "Which property is used to create space between table cells?",
+    "options": ["cell-spacing", "border-spacing", "padding", "spacing"],
+    "correctOption": "border-spacing",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property specifies whether an element is visible or hidden?",
+    "options": ["visibility", "display", "opacity", "hidden"],
+    "correctOption": "visibility",
+    "points": 10
+  },
+  {
+    "question": "How do you apply styles to a hover state in CSS?",
+    "options": ["hover", ":hover", "::hover", "@hover"],
+    "correctOption": ":hover",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property is used to add an image as a background?",
+    "options": ["background-color", "background-image", "background", "image"],
+    "correctOption": "background-image",
+    "points": 10
+  },
+  {
+    "question": "How do you specify that an element should have a flex layout in CSS?",
+    "options": [
+      "display: block",
+      "display: inline",
+      "display: flex",
+      "layout: flex"
+    ],
+    "correctOption": "display: flex",
+    "points": 10
+  },
+  {
+    "question": "Which CSS property defines the speed of a transition?",
+    "options": [
+      "transition-speed",
+      "animation-speed",
+      "duration",
+      "transition-duration"
+    ],
+    "correctOption": "transition-duration",
+    "points": 10
+  },
+  {
+    "question": "How do you center a block element horizontally using CSS?",
+    "options": [
+      "margin: auto",
+      "align: center",
+      "text-align: center",
+      "padding: center"
+    ],
+    "correctOption": "margin: auto",
+    "points": 10
+  }
+]

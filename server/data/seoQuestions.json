@@ -1,0 +1,277 @@
+[
+  {
+    "question": "What does SEO stand for?",
+    "options": [
+      "Search Engine Optimization",
+      "Search Engine Operations",
+      "Search Efficient Optimization",
+      "Social Engine Optimization"
+    ],
+    "correctOption": "Search Engine Optimization",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is a factor in search engine rankings?",
+    "options": [
+      "Content quality",
+      "Backlinks",
+      "Page speed",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is a keyword in SEO?",
+    "options": [
+      "A word or phrase that people search for on search engines",
+      "A special HTML tag",
+      "A synonym for meta description",
+      "A way to measure site traffic"
+    ],
+    "correctOption": "A word or phrase that people search for on search engines",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of meta tags in SEO?",
+    "options": [
+      "To provide metadata about the webpage",
+      "To add keywords to the content",
+      "To increase the page load speed",
+      "To hide the content from users"
+    ],
+    "correctOption": "To provide metadata about the webpage",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is a good SEO practice for page titles?",
+    "options": [
+      "Use relevant keywords",
+      "Use the same title for all pages",
+      "Use no title tag",
+      "Use random words"
+    ],
+    "correctOption": "Use relevant keywords",
+    "points": 10
+  },
+  {
+    "question": "What is the 'alt text' used for in SEO?",
+    "options": [
+      "Describes the content of an image",
+      "Provides a title for a webpage",
+      "Improves the page loading speed",
+      "Helps in keyword ranking"
+    ],
+    "correctOption": "Describes the content of an image",
+    "points": 10
+  },
+  {
+    "question": "What is a backlink in SEO?",
+    "options": [
+      "A link from another website to your website",
+      "A link from your website to a social media platform",
+      "A link from a page to an image",
+      "A link to an external website"
+    ],
+    "correctOption": "A link from another website to your website",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of using heading tags (H1, H2, etc.) in SEO?",
+    "options": [
+      "To organize the content and improve readability",
+      "To hide keywords from users",
+      "To add images to the page",
+      "To make the page load faster"
+    ],
+    "correctOption": "To organize the content and improve readability",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is important for improving mobile SEO?",
+    "options": [
+      "Responsive web design",
+      "Fast page loading speed",
+      "Mobile-friendly content",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is the 'robots.txt' file used for in SEO?",
+    "options": [
+      "To tell search engines which pages to crawl or not to crawl",
+      "To hide the content of a webpage",
+      "To block certain keywords",
+      "To optimize images"
+    ],
+    "correctOption": "To tell search engines which pages to crawl or not to crawl",
+    "points": 10
+  },
+  {
+    "question": "What does the term 'long-tail keywords' refer to in SEO?",
+    "options": [
+      "Keywords that are more specific and longer in length",
+      "Keywords that are commonly used by everyone",
+      "Keywords that have no competition",
+      "Keywords that are part of a website's title"
+    ],
+    "correctOption": "Keywords that are more specific and longer in length",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is a tool used for SEO keyword research?",
+    "options": [
+      "Google Keyword Planner",
+      "Google Analytics",
+      "Moz",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of a sitemap in SEO?",
+    "options": [
+      "To help search engines find and index pages on a website",
+      "To add images to a webpage",
+      "To reduce the website's loading time",
+      "To collect visitor data"
+    ],
+    "correctOption": "To help search engines find and index pages on a website",
+    "points": 10
+  },
+  {
+    "question": "What is 'local SEO'?",
+    "options": [
+      "Optimizing a website to rank higher for local searches",
+      "Optimizing a website for international search engines",
+      "Optimizing for social media platforms",
+      "Optimizing the content for all languages"
+    ],
+    "correctOption": "Optimizing a website to rank higher for local searches",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of '404 errors' in SEO?",
+    "options": [
+      "To inform the user that a page was not found",
+      "To increase page load speed",
+      "To improve content quality",
+      "To improve mobile usability"
+    ],
+    "correctOption": "To inform the user that a page was not found",
+    "points": 10
+  },
+  {
+    "question": "What is 'bounce rate' in SEO?",
+    "options": [
+      "The percentage of visitors who leave the site after viewing only one page",
+      "The percentage of visitors who navigate to other pages",
+      "The percentage of visitors who interact with pop-up ads",
+      "The percentage of visitors who share content on social media"
+    ],
+    "correctOption": "The percentage of visitors who leave the site after viewing only one page",
+    "points": 10
+  },
+  {
+    "question": "What is the significance of 'page speed' in SEO?",
+    "options": [
+      "Faster pages provide a better user experience and can improve rankings",
+      "Slower pages rank better in search engines",
+      "Page speed does not affect SEO",
+      "Page speed is only important for mobile devices"
+    ],
+    "correctOption": "Faster pages provide a better user experience and can improve rankings",
+    "points": 10
+  },
+  {
+    "question": "What does 'Google Analytics' help you track?",
+    "options": [
+      "Visitor behavior and traffic sources on your website",
+      "Search engine rankings",
+      "Backlink quality",
+      "Mobile responsiveness"
+    ],
+    "correctOption": "Visitor behavior and traffic sources on your website",
+    "points": 10
+  },
+  {
+    "question": "What is 'content marketing' in SEO?",
+    "options": [
+      "Creating valuable and relevant content to attract and engage visitors",
+      "Buying links from other websites",
+      "Publishing articles with random keywords",
+      "Posting only images on your site"
+    ],
+    "correctOption": "Creating valuable and relevant content to attract and engage visitors",
+    "points": 10
+  },
+  {
+    "question": "What is a 'landing page' in SEO?",
+    "options": [
+      "A page designed to convert visitors into customers or leads",
+      "A homepage of a website",
+      "A page showing recent blog posts",
+      "A page with images only"
+    ],
+    "correctOption": "A page designed to convert visitors into customers or leads",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is considered a black-hat SEO technique?",
+    "options": [
+      "Keyword stuffing",
+      "Building quality backlinks",
+      "Using proper headings and meta descriptions",
+      "Creating useful content"
+    ],
+    "correctOption": "Keyword stuffing",
+    "points": 10
+  },
+  {
+    "question": "What is 'link building' in SEO?",
+    "options": [
+      "The process of acquiring backlinks from other websites",
+      "Building internal links within your site",
+      "Creating high-quality content",
+      "Building social media followers"
+    ],
+    "correctOption": "The process of acquiring backlinks from other websites",
+    "points": 10
+  },
+  {
+    "question": "What does 'SSL' stand for in SEO?",
+    "options": [
+      "Secure Socket Layer",
+      "Search Server Layer",
+      "Simple Server Link",
+      "Secure Server Layer"
+    ],
+    "correctOption": "Secure Socket Layer",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is considered a white-hat SEO technique?",
+    "options": [
+      "Creating high-quality, original content",
+      "Buying backlinks",
+      "Keyword stuffing",
+      "Using irrelevant meta tags"
+    ],
+    "correctOption": "Creating high-quality, original content",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of 'schema markup' in SEO?",
+    "options": [
+      "To provide search engines with additional information about a webpage",
+      "To reduce page speed",
+      "To hide content from users",
+      "To add images to a page"
+    ],
+    "correctOption": "To provide search engines with additional information about a webpage",
+    "points": 10
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "question": "What is Node.js?",
+    "options": [
+      "A JavaScript framework",
+      "A JavaScript runtime environment",
+      "A web browser",
+      "A database management system"
+    ],
+    "correctOption": "A JavaScript runtime environment",
+    "points": 10
+  },
+  {
+    "question": "Which engine powers Node.js?",
+    "options": ["SpiderMonkey", "V8", "JavaScriptCore", "Chakra"],
+    "correctOption": "V8",
+    "points": 10
+  },
+  {
+    "question": "What does npm stand for?",
+    "options": [
+      "Node.js Project Manager",
+      "Node Package Manager",
+      "Network Protocol Manager",
+      "New Project Manager"
+    ],
+    "correctOption": "Node Package Manager",
+    "points": 10
+  },
+  {
+    "question": "What is the primary use of Node.js?",
+    "options": [
+      "Developing desktop applications",
+      "Building server-side and networking applications",
+      "Designing user interfaces",
+      "Managing databases"
+    ],
+    "correctOption": "Building server-side and networking applications",
+    "points": 10
+  },
+  {
+    "question": "Which module is used to create a server in Node.js?",
+    "options": ["fs", "http", "path", "url"],
+    "correctOption": "http",
+    "points": 10
+  },
+  {
+    "question": "What is the default scope of a module in Node.js?",
+    "options": [
+      "Global",
+      "Local to the file",
+      "Shared across all files",
+      "None of the above"
+    ],
+    "correctOption": "Local to the file",
+    "points": 10
+  },
+  {
+    "question": "Which command is used to initialize a Node.js project?",
+    "options": ["npm install", "npm init", "node start", "node init"],
+    "correctOption": "npm init",
+    "points": 10
+  },
+  {
+    "question": "What is a middleware in Node.js?",
+    "options": [
+      "A function that handles requests and responses",
+      "A library for managing dependencies",
+      "A tool for testing applications",
+      "A framework for building APIs"
+    ],
+    "correctOption": "A function that handles requests and responses",
+    "points": 10
+  },
+  {
+    "question": "  of these is a core module in Node.js?",
+    "options": ["express", "http", "mongoose", "react"],
+    "correctOption": "http",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'fs' module in Node.js?",
+    "options": [
+      "To handle file system operations",
+      "To manage HTTP requests",
+      "To interact with databases",
+      "To schedule tasks"
+    ],
+    "correctOption": "To handle file system operations",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to read a file in Node.js?",
+    "options": ["fs.read()", "fs.readFile()", "fs.readSync()", "file.read()"],
+    "correctOption": "fs.readFile()",
+    "points": 10
+  },
+  {
+    "question": "What is the default port for a Node.js application?",
+    "options": ["3000", "8080", "80", "5000"],
+    "correctOption": "3000",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to write logs to the console in Node.js?",
+    "options": [
+      "console.write()",
+      "console.print()",
+      "console.log()",
+      "log.console()"
+    ],
+    "correctOption": "console.log()",
+    "points": 10
+  },
+  {
+    "question": "What does 'require()' do in Node.js?",
+    "options": [
+      "Loads modules and libraries",
+      "Compiles JavaScript code",
+      "Handles HTTP requests",
+      "Manages sessions"
+    ],
+    "correctOption": "Loads modules and libraries",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'path' module in Node.js?",
+    "options": [
+      "To manage file paths",
+      "To handle HTTP requests",
+      "To interact with databases",
+      "To execute external scripts"
+    ],
+    "correctOption": "To manage file paths",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is true about Node.js?",
+    "options": [
+      "It is single-threaded",
+      "It uses an event-driven architecture",
+      "It is non-blocking",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "How can you handle errors in Node.js?",
+    "options": [
+      "Using try-catch blocks",
+      "Using error-first callbacks",
+      "Using promises and async/await",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to serve static files in Node.js?",
+    "options": ["fs.serve()", "express.static()", "http.serve()", "static()"],
+    "correctOption": "express.static()",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'eventEmitter' module in Node.js?",
+    "options": [
+      "To manage events",
+      "To read files",
+      "To handle HTTP requests",
+      "To schedule tasks"
+    ],
+    "correctOption": "To manage events",
+    "points": 10
+  },
+  {
+    "question": "What is the significance of 'process.env' in Node.js?",
+    "options": [
+      "It provides access to environment variables",
+      "It handles file paths",
+      "It creates a new process",
+      "It schedules tasks"
+    ],
+    "correctOption": "It provides access to environment variables",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'cluster' module in Node.js?",
+    "options": [
+      "To enable multi-threading",
+      "To split files",
+      "To manage processes",
+      "To create new modules"
+    ],
+    "correctOption": "To enable multi-threading",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'stream' module in Node.js?",
+    "options": [
+      "To handle streaming data",
+      "To create APIs",
+      "To manage middleware",
+      "To connect to databases"
+    ],
+    "correctOption": "To handle streaming data",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is a global object in Node.js?",
+    "options": ["module", "__dirname", "process", "All of the above"],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is the use of the 'os' module in Node.js?",
+    "options": [
+      "To provide operating system-related utility methods",
+      "To manage HTTP requests",
+      "To interact with file systems",
+      "To execute shell scripts"
+    ],
+    "correctOption": "To provide operating system-related utility methods",
+    "points": 10
+  },
+  {
+    "question": "Which command installs a Node.js package globally?",
+    "options": [
+      "npm install",
+      "npm install -g",
+      "npm add",
+      "npm global install"
+    ],
+    "correctOption": "npm install -g",
+    "points": 10
+  },
+  {
+    "question": "What does 'module.exports' do in Node.js?",
+    "options": [
+      "Exports a module to be used in other files",
+      "Imports a module into a file",
+      "Defines a new module",
+      "Lists all available modules"
+    ],
+    "correctOption": "Exports a module to be used in other files",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the 'url' module in Node.js?",
+    "options": [
+      "To parse URL strings",
+      "To manage HTTP requests",
+      "To serve static files",
+      "To handle events"
+    ],
+    "correctOption": "To parse URL strings",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to terminate a Node.js process?",
+    "options": [
+      "process.kill()",
+      "process.exit()",
+      "exit.process()",
+      "terminate()"
+    ],
+    "correctOption": "process.exit()",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of 'buffer' in Node.js?",
+    "options": [
+      "To handle binary data",
+      "To create APIs",
+      "To manage HTTP requests",
+      "To fetch data from the database"
+    ],
+    "correctOption": "To handle binary data",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is used to manage packages in Node.js?",
+    "options": ["npm", "yarn", "bower", "All of the above"],
+    "correctOption": "All of the above",
+    "points": 10
+  }
+]

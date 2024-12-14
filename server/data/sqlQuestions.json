@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "System Query Language",
+      "Sequential Query Language",
+      "Standard Query Language"
+    ],
+    "correctOption": "Structured Query Language",
+    "points": 10
+  },
+  {
+    "question": "Which SQL command is used to retrieve data from a database?",
+    "options": ["SELECT", "INSERT", "UPDATE", "DELETE"],
+    "correctOption": "SELECT",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the WHERE clause in SQL?",
+    "options": [
+      "To filter records",
+      "To group records",
+      "To sort records",
+      "To delete records"
+    ],
+    "correctOption": "To filter records",
+    "points": 10
+  },
+  {
+    "question": "Which SQL keyword is used to sort the result set?",
+    "options": ["SORT BY", "ORDER BY", "GROUP BY", "FILTER BY"],
+    "correctOption": "ORDER BY",
+    "points": 10
+  },
+  {
+    "question": "Which operator is used to check for a specific range of values in SQL?",
+    "options": ["LIKE", "BETWEEN", "IN", "RANGE"],
+    "correctOption": "BETWEEN",
+    "points": 10
+  },
+  {
+    "question": "Which function in SQL is used to find the number of rows?",
+    "options": ["COUNT()", "SUM()", "AVG()", "ROWCOUNT()"],
+    "correctOption": "COUNT()",
+    "points": 10
+  },
+  {
+    "question": "What does the JOIN keyword do in SQL?",
+    "options": [
+      "Combines rows from two or more tables",
+      "Deletes rows from a table",
+      "Filters rows based on conditions",
+      "Sorts rows in ascending order"
+    ],
+    "correctOption": "Combines rows from two or more tables",
+    "points": 10
+  },
+  {
+    "question": "Which SQL statement is used to create a new table?",
+    "options": ["CREATE TABLE", "NEW TABLE", "ADD TABLE", "BUILD TABLE"],
+    "correctOption": "CREATE TABLE",
+    "points": 10
+  },
+  {
+    "question": "Which keyword is used in SQL to prevent duplicate records in a result set?",
+    "options": ["UNIQUE", "DISTINCT", "FILTER", "PRIMARY"],
+    "correctOption": "DISTINCT",
+    "points": 10
+  },
+  {
+    "question": "What is a primary key in SQL?",
+    "options": [
+      "A unique identifier for each record in a table",
+      "A column that stores encrypted data",
+      "A foreign key reference",
+      "A column used to store dates"
+    ],
+    "correctOption": "A unique identifier for each record in a table",
+    "points": 10
+  },
+  {
+    "question": "Which SQL statement is used to update data in a table?",
+    "options": ["MODIFY", "ALTER", "UPDATE", "CHANGE"],
+    "correctOption": "UPDATE",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": [
+      "To filter groups of data",
+      "To filter individual rows",
+      "To sort the result set",
+      "To create a new column"
+    ],
+    "correctOption": "To filter groups of data",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the SQL GROUP BY clause?",
+    "options": [
+      "To group rows with the same values",
+      "To filter rows",
+      "To join tables",
+      "To sort the result set"
+    ],
+    "correctOption": "To group rows with the same values",
+    "points": 10
+  },
+  {
+    "question": "What is a foreign key in SQL?",
+    "options": [
+      "A field in a table that uniquely identifies a row in another table",
+      "A field that stores encrypted data",
+      "A key that identifies duplicate rows",
+      "A field used to group data"
+    ],
+    "correctOption": "A field in a table that uniquely identifies a row in another table",
+    "points": 10
+  },
+  {
+    "question": "Which SQL function returns the current date and time?",
+    "options": ["NOW()", "GETDATE()", "CURRENT_TIMESTAMP", "All of the above"],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "Which SQL keyword is used to delete all rows from a table without removing the table structure?",
+    "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+    "correctOption": "TRUNCATE",
+    "points": 10
+  },
+  {
+    "question": "Which SQL keyword is used to add a new column to a table?",
+    "options": ["MODIFY", "ADD", "ALTER", "UPDATE"],
+    "correctOption": "ADD",
+    "points": 10
+  },
+  {
+    "question": "Which SQL constraint ensures that all values in a column are different?",
+    "options": ["UNIQUE", "NOT NULL", "PRIMARY KEY", "FOREIGN KEY"],
+    "correctOption": "UNIQUE",
+    "points": 10
+  },
+  {
+    "question": "Which SQL clause is used to limit the number of rows returned?",
+    "options": ["LIMIT", "ROWCOUNT", "OFFSET", "TOP"],
+    "correctOption": "LIMIT",
+    "points": 10
+  },
+  {
+    "question": "Which SQL operator is used to search for a specified pattern in a column?",
+    "options": ["LIKE", "BETWEEN", "IN", "SEARCH"],
+    "correctOption": "LIKE",
+    "points": 10
+  },
+  {
+    "question": "What does the UNION operator do in SQL?",
+    "options": [
+      "Combines the results of two SELECT statements",
+      "Deletes duplicate rows",
+      "Creates a new table",
+      "Joins two tables"
+    ],
+    "correctOption": "Combines the results of two SELECT statements",
+    "points": 10
+  },
+  {
+    "question": "Which command is used to delete a database in SQL?",
+    "options": [
+      "DROP DATABASE",
+      "DELETE DATABASE",
+      "REMOVE DATABASE",
+      "CLEAR DATABASE"
+    ],
+    "correctOption": "DROP DATABASE",
+    "points": 10
+  },
+  {
+    "question": "Which SQL keyword is used to combine rows from two tables based on a related column?",
+    "options": ["JOIN", "UNION", "MERGE", "CONNECT"],
+    "correctOption": "JOIN",
+    "points": 10
+  },
+  {
+    "question": "What is the default sorting order of the ORDER BY clause in SQL?",
+    "options": ["Ascending", "Descending", "Random", "None"],
+    "correctOption": "Ascending",
+    "points": 10
+  },
+  {
+    "question": "Which SQL keyword is used to set a default value for a column?",
+    "options": ["DEFAULT", "SET", "VALUE", "INSERT"],
+    "correctOption": "DEFAULT",
+    "points": 10
+  },
+  {
+    "question": "Which SQL command is used to change the structure of a table?",
+    "options": ["ALTER TABLE", "UPDATE TABLE", "CHANGE TABLE", "MODIFY TABLE"],
+    "correctOption": "ALTER TABLE",
+    "points": 10
+  },
+  {
+    "question": "What is a view in SQL?",
+    "options": [
+      "A virtual table based on the result of a SELECT query",
+      "A backup of the database",
+      "A physical table in the database",
+      "A method to index columns"
+    ],
+    "correctOption": "A virtual table based on the result of a SELECT query",
+    "points": 10
+  },
+  {
+    "question": "Which SQL command is used to rename a table?",
+    "options": ["RENAME", "ALTER", "UPDATE", "MODIFY"],
+    "correctOption": "RENAME",
+    "points": 10
+  },
+  {
+    "question": "What is the use of the SQL AVG() function?",
+    "options": [
+      "To calculate the average value of a numeric column",
+      "To count the number of rows",
+      "To find the maximum value",
+      "To return all distinct values"
+    ],
+    "correctOption": "To calculate the average value of a numeric column",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of the SQL IN operator?",
+    "options": [
+      "To specify multiple values in a WHERE clause",
+      "To create a new index",
+      "To update rows",
+      "To delete rows"
+    ],
+    "correctOption": "To specify multiple values in a WHERE clause",
+    "points": 10
+  }
+]

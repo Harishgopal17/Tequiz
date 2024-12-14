@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is ReactJS?",
+    "options": [
+      "A backend framework",
+      "A database",
+      "A JavaScript library for building user interfaces",
+      "A programming language"
+    ],
+    "correctOption": "A JavaScript library for building user interfaces",
+    "points": 10
+  },
+  {
+    "question": "Who developed ReactJS?",
+    "options": ["Google", "Microsoft", "Facebook", "Amazon"],
+    "correctOption": "Facebook",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of React's virtual DOM?",
+    "options": [
+      "To update the browser's DOM directly",
+      "To improve performance by minimizing direct DOM updates",
+      "To compile JavaScript code",
+      "To store application data"
+    ],
+    "correctOption": "To improve performance by minimizing direct DOM updates",
+    "points": 10
+  },
+  {
+    "question": "How do you create a React component?",
+    "options": [
+      "Using a function or a class",
+      "Using only a function",
+      "Using only a class",
+      "Using HTML tags"
+    ],
+    "correctOption": "Using a function or a class",
+    "points": 10
+  },
+  {
+    "question": "What is JSX?",
+    "options": [
+      "JavaScript XML",
+      "JavaScript Extension",
+      "A syntax for writing backend code",
+      "A new programming language"
+    ],
+    "correctOption": "JavaScript XML",
+    "points": 10
+  },
+  {
+    "question": "What is the default data flow in React?",
+    "options": ["Top-down", "Bottom-up", "Bidirectional", "Circular"],
+    "correctOption": "Top-down",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to render a React element into the DOM?",
+    "options": [
+      "React.render()",
+      "ReactDOM.render()",
+      "ReactElement.render()",
+      "renderDOM()"
+    ],
+    "correctOption": "ReactDOM.render()",
+    "points": 10
+  },
+  {
+    "question": "What are React props?",
+    "options": [
+      "Components' private data",
+      "Parameters passed to components",
+      "Global variables",
+      "Event handlers"
+    ],
+    "correctOption": "Parameters passed to components",
+    "points": 10
+  },
+  {
+    "question": "What is a React state?",
+    "options": [
+      "A global variable",
+      "A way to manage dynamic data in a component",
+      "A property inherited from props",
+      "An external library"
+    ],
+    "correctOption": "A way to manage dynamic data in a component",
+    "points": 10
+  },
+  {
+    "question": "Which hook is used to manage state in a functional component?",
+    "options": ["useState", "useEffect", "useContext", "useReducer"],
+    "correctOption": "useState",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of useEffect hook?",
+    "options": [
+      "To manage state",
+      "To fetch data and handle side effects",
+      "To define component props",
+      "To create context"
+    ],
+    "correctOption": "To fetch data and handle side effects",
+    "points": 10
+  },
+  {
+    "question": "How do you pass data from a parent component to a child component?",
+    "options": [
+      "Using props",
+      "Using state",
+      "Using context",
+      "Using reducers"
+    ],
+    "correctOption": "Using props",
+    "points": 10
+  },
+  {
+    "question": "What is React Fragment?",
+    "options": [
+      "A lightweight component to group multiple elements",
+      "A method to fetch data",
+      "A library for managing state",
+      "A type of prop"
+    ],
+    "correctOption": "A lightweight component to group multiple elements",
+    "points": 10
+  },
+  {
+    "question": "How do you handle forms in React?",
+    "options": [
+      "Using controlled components",
+      "Using uncontrolled components",
+      "Using refs",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of React Router?",
+    "options": [
+      "To manage state",
+      "To handle side effects",
+      "To enable navigation between components",
+      "To fetch data from APIs"
+    ],
+    "correctOption": "To enable navigation between components",
+    "points": 10
+  },
+  {
+    "question": "What is the Context API in React?",
+    "options": [
+      "A way to manage global state",
+      "A library for fetching data",
+      "A debugging tool",
+      "An alternative to props"
+    ],
+    "correctOption": "A way to manage global state",
+    "points": 10
+  },
+  {
+    "question": "What does the key prop do in React?",
+    "options": [
+      "Makes components unique in a list",
+      "Stores local state",
+      "Links components to the DOM",
+      "Defines component hierarchy"
+    ],
+    "correctOption": "Makes components unique in a list",
+    "points": 10
+  },
+  {
+    "question": "What is React's Strict Mode?",
+    "options": [
+      "A tool for highlighting potential problems in an application",
+      "A library for managing errors",
+      "A mode for optimizing performance",
+      "A debugging framework"
+    ],
+    "correctOption": "A tool for highlighting potential problems in an application",
+    "points": 10
+  },
+  {
+    "question": "How do you create a React ref?",
+    "options": ["useRef()", "createRef()", "Both", "Neither"],
+    "correctOption": "Both",
+    "points": 10
+  },
+  {
+    "question": "What is the useReducer hook used for?",
+    "options": [
+      "Managing complex state",
+      "Fetching data",
+      "Creating context",
+      "Handling events"
+    ],
+    "correctOption": "Managing complex state",
+    "points": 10
+  },
+  {
+    "question": "Which of the following is true about React keys?",
+    "options": [
+      "Keys help React identify changed components",
+      "Keys improve performance",
+      "Keys must be unique among siblings",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is a pure component in React?",
+    "options": [
+      "A component that only renders once",
+      "A component that doesn't use state",
+      "A component that renders the same output for the same props",
+      "A component that only uses hooks"
+    ],
+    "correctOption": "A component that renders the same output for the same props",
+    "points": 10
+  },
+  {
+    "question": "What is lazy loading in React?",
+    "options": [
+      "Loading components as needed",
+      "Optimizing performance",
+      "Defining routes dynamically",
+      "Handling errors in rendering"
+    ],
+    "correctOption": "Loading components as needed",
+    "points": 10
+  },
+  {
+    "question": "What is React's default port for development?",
+    "options": ["3000", "8080", "4200", "5000"],
+    "correctOption": "3000",
+    "points": 10
+  },
+  {
+    "question": "How do you handle errors in React components?",
+    "options": [
+      "Using error boundaries",
+      "Using the try-catch block",
+      "Both",
+      "Neither"
+    ],
+    "correctOption": "Both",
+    "points": 10
+  },
+  {
+    "question": "Which method is used to optimize React performance?",
+    "options": ["Memoization", "useEffect", "useState", "React keys"],
+    "correctOption": "Memoization",
+    "points": 10
+  },
+  {
+    "question": "What is the purpose of React.memo?",
+    "options": [
+      "To prevent unnecessary re-renders",
+      "To handle side effects",
+      "To manage state",
+      "To fetch data"
+    ],
+    "correctOption": "To prevent unnecessary re-renders",
+    "points": 10
+  },
+  {
+    "question": "What is server-side rendering in React?",
+    "options": [
+      "Rendering React components on the server before sending HTML to the browser",
+      "A way to optimize performance",
+      "A method for rendering error messages",
+      "A debugging tool"
+    ],
+    "correctOption": "Rendering React components on the server before sending HTML to the browser",
+    "points": 10
+  },
+  {
+    "question": "How do you add CSS styles to a React component?",
+    "options": [
+      "Inline styles",
+      "CSS files",
+      "CSS modules",
+      "All of the above"
+    ],
+    "correctOption": "All of the above",
+    "points": 10
+  },
+  {
+    "question": "What is hydration in React?",
+    "options": [
+      "Restoring the app state in the browser using server-rendered HTML",
+      "Adding interactivity to a component",
+      "Optimizing data fetching",
+      "Using state in functional components"
+    ],
+    "correctOption": "Restoring the app state in the browser using server-rendered HTML",
+    "points": 10
+  }
+]
