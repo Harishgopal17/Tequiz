@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { DetailsContext } from "./../App";
 import signup from "./../assets/icons/signup.svg";
@@ -7,8 +7,11 @@ export default function Signup() {
   const { BaseUrl, setError } = useContext(DetailsContext);
   const navigate = useNavigate();
 
+  const [signupLoading, setsignupLoading] = useState(false);
+
   async function handleSignup(name, email, password) {
     try {
+      setsignupLoading(true);
       const res = await fetch(`${BaseUrl}/api/v1/users/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -24,7 +27,17 @@ export default function Signup() {
       }
     } catch (err) {
       setError(err.message);
+    } finally {
+      setsignupLoading(false);
     }
+  }
+
+  if (signupLoading) {
+    return (
+      <div className="absolute top-0 left-0 h-screen w-screen z-50 flex justify-center items-center">
+        <div className="loading"></div>
+      </div>
+    );
   }
 
   return (

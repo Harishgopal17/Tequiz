@@ -30,17 +30,22 @@ export default function Profile() {
         }
       } catch (err) {
         setError(err.message);
+      } finally {
       }
     }
     fetchProfile();
   }, []);
 
   if (!user.name) {
-    return null;
+    return (
+      <div className="absolute top-0 left-0 h-screen w-screen z-50 flex justify-center items-center">
+        <div className="loading"></div>
+      </div>
+    );
   }
 
   return (
-    <div className="max-w-4xl mx-auto p-6 pt-24 dark:text-light">
+    <div className="max-w-4xl h-screen mx-auto p-6 pt-24 dark:text-light">
       {/* Header Section */}
       <div className="flex items-center justify-between mb-8">
         <div className="flex items-center gap-6">

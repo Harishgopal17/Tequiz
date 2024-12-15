@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { DetailsContext } from "./../App";
 import loginsvg from "./../assets/icons/login.svg";
@@ -7,8 +7,11 @@ export default function Login() {
   const { BaseUrl, setError } = useContext(DetailsContext);
   const navigate = useNavigate();
 
+  const [loginLoading, setLoginLoading] = useState(false);
+
   async function handleLogin(email, password) {
     try {
+      setLoginLoading(true);
       const res = await fetch(`${BaseUrl}/api/v1/users/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -24,7 +27,17 @@ export default function Login() {
       }
     } catch (err) {
       setError(err.message);
+    } finally {
+      setLoginLoading(false);
     }
+  }
+
+  if (loginLoading) {
+    return (
+      <div className="absolute top-0 left-0 h-screen w-screen z-50 flex justify-center items-center">
+        <div className="loading"></div>
+      </div>
+    );
   }
 
   return (
