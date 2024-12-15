@@ -14,7 +14,8 @@ import ErrorMessage from "./components/Error";
 import { explore } from "./constants/constants";
 
 export const DetailsContext = createContext();
-const BaseUrl = "http://127.0.0.1:3000";
+// const BaseUrl = "http://127.0.0.1:3000";
+const BaseUrl = "https://tequiz.onrender.com";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

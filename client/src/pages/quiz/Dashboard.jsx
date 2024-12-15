@@ -40,7 +40,7 @@ export default function Dashboard({ explore }) {
                       ? "bg-[#32CD32]"
                       : el.category === "ai"
                       ? "bg-[#9370DB]"
-                      : "bg-[#000]"
+                      : "bg-[#588865]"
                   } absolute top-2 right-2 text-sm px-3 py-1 rounded-full text-light`}
                 >
                   {el.category}

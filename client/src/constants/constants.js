@@ -5,7 +5,9 @@ import reactjs from "./../assets/images/reactjs.jpg";
 import nodejs from "./../assets/images/nodejs.jpg";
 import sql from "./../assets/images/sql.jpg";
 import java from "./../assets/images/java.jpg";
+import python from "./../assets/images/python.jpg";
 import php from "./../assets/images/php.jpg";
+import linux from "./../assets/images/linux.jpg";
 import seo from "./../assets/images/seo.jpg";
 import ai from "./../assets/images/ai.jpg";
 
@@ -66,10 +68,24 @@ export const explore = [
   },
   {
     name: "",
+    subheading: "Basic Python questions",
+    category: "backend",
+    imgurl: python,
+    quiz: "pythonquiz",
+  },
+  {
+    name: "",
     subheading: "Basic Php questions",
     category: "backend",
     imgurl: php,
     quiz: "phpquiz",
+  },
+  {
+    name: "",
+    subheading: "Basic linux questions",
+    category: "os",
+    imgurl: linux,
+    quiz: "linuxquiz",
   },
   {
     name: "",

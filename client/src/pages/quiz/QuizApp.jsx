@@ -8,7 +8,7 @@ import Timer from "./Timer";
 import NextButton from "./NextButton";
 import FinishedScreen from "./FinishedScreen";
 
-const SECS_PER_QUESTIONS = 30;
+const SECS_PER_QUESTIONS = 1;
 
 const initialState = {
   questions: [],
@@ -92,7 +92,7 @@ export default function QuizApp() {
     pythonquiz: "PythonQuiz",
     phpquiz: "PhpQuiz",
     sqlquiz: "SqlQuiz",
-    linuxquix: "LinuxQuiz",
+    linuxquiz: "LinuxQuiz",
     aiquiz: "AiQuiz",
     seoquiz: "SeoQuiz",
   };
