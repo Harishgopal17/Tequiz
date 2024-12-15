@@ -8,7 +8,7 @@ import Timer from "./Timer";
 import NextButton from "./NextButton";
 import FinishedScreen from "./FinishedScreen";
 
-const SECS_PER_QUESTIONS = 1;
+const SECS_PER_QUESTIONS = 30;
 
 const initialState = {
   questions: [],
