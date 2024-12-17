@@ -180,7 +180,7 @@ export default function QuizApp() {
         )}
         {status === "active" && (
           <>
-            <div className="w-[500px]">
+            <div className="w-[500px] max-sm:w-64">
               <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} />
               <Progress
                 index={index}
