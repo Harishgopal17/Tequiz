@@ -13,7 +13,7 @@ export default function Timer({ dispatch, secondsRemaining }) {
 
   return (
     <div
-      className={`text-right mb-5 font-medium ${
+      className={`mb-2 text-right font-medium ${
         secondsRemaining < 60 && "text-red-600"
       }`}
     >

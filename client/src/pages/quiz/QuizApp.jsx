@@ -7,6 +7,7 @@ import Loader from "./Loader";
 import Timer from "./Timer";
 import NextButton from "./NextButton";
 import FinishedScreen from "./FinishedScreen";
+import Progress from "./Progress";
 
 const SECS_PER_QUESTIONS = 30;
 
@@ -162,13 +163,13 @@ export default function QuizApp() {
   }, [status, selectedQuiz, points]);
 
   return (
-    <div className="flex h-screen flex-col items-center pt-32 max-md:items-center max-md:px-8 max-md:pt-28 dark:text-light">
-      <header className="mb-6">
+    <div className="flex h-screen flex-col items-center pt-20 max-md:items-center max-md:px-8 max-md:pt-28 dark:text-light">
+      <header className="mb-4">
         <h2 className="text-[56px] font-medium max-sm:text-3xl max-md:text-4xl">
           {selectedQuiz}
         </h2>
       </header>
-      <main className="flex flex-col">
+      <main className="flex flex-col items-center">
         {status === "loading" && <Loader />}
         {status === "ready" && (
           <StartScreen
@@ -179,7 +180,16 @@ export default function QuizApp() {
         )}
         {status === "active" && (
           <>
-            <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} />
+            <div className="w-[500px]">
+              <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} />
+              <Progress
+                index={index}
+                numofQuestions={numofQuestions}
+                points={points}
+                maxPossiblePoints={maxPossiblePoints}
+                answer={answer}
+              />
+            </div>
             <Questions
               question={questions[index]}
               answer={answer}

@@ -45,7 +45,7 @@ export default function Profile() {
   }
 
   return (
-    <div className="max-w-4xl h-screen mx-auto p-6 pt-24 dark:text-light">
+    <div className="max-w-4xl mx-auto p-6 pt-24 dark:text-light">
       {/* Header Section */}
       <div className="flex items-center justify-between mb-8">
         <div className="flex items-center gap-6">
