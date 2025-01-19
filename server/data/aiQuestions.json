@@ -2,8 +2,8 @@
   {
     "question": "What does AI stand for?",
     "options": [
-      "Artificial Intelligence",
       "Automatic Integration",
+      "Artificial Intelligence",
       "Artificial Integration",
       "Automated Intelligence"
     ],
@@ -13,9 +13,9 @@
   {
     "question": "Which of the following is a key component of AI?",
     "options": [
-      "Machine Learning",
       "Cloud Computing",
       "Database Management",
+      "Machine Learning",
       "All of the above"
     ],
     "correctOption": "Machine Learning",
@@ -41,8 +41,8 @@
   {
     "question": "What does 'machine learning' involve?",
     "options": [
-      "Teaching machines to learn from data",
       "Writing hard-coded instructions",
+      "Teaching machines to learn from data",
       "Automating tasks without any data",
       "Programming machines with exact rules"
     ],
@@ -52,10 +52,10 @@
   {
     "question": "What is 'deep learning' in AI?",
     "options": [
-      "A subset of machine learning using neural networks",
       "A type of database management system",
       "A way to improve hardware performance",
-      "A method for reducing energy consumption"
+      "A method for reducing energy consumption",
+      "A subset of machine learning using neural networks"
     ],
     "correctOption": "A subset of machine learning using neural networks",
     "points": 10
@@ -74,9 +74,9 @@
   {
     "question": "What is a neural network in the context of AI?",
     "options": [
-      "A system modeled after the human brain for pattern recognition",
       "A database used for storing large data sets",
       "A hardware component that speeds up calculations",
+      "A system modeled after the human brain for pattern recognition",
       "A system for managing AI hardware resources"
     ],
     "correctOption": "A system modeled after the human brain for pattern recognition",
@@ -85,8 +85,8 @@
   {
     "question": "What is the Turing Test used to evaluate?",
     "options": [
-      "A machine's ability to exhibit intelligent behavior equivalent to that of a human",
       "The speed of a computer's processor",
+      "A machine's ability to exhibit intelligent behavior equivalent to that of a human",
       "The energy efficiency of an AI model",
       "The accuracy of AI predictions"
     ],
@@ -107,8 +107,8 @@
   {
     "question": "What is reinforcement learning in AI?",
     "options": [
-      "A type of machine learning where agents learn by interacting with an environment",
       "A method for improving hardware components",
+      "A type of machine learning where agents learn by interacting with an environment",
       "A database management technique",
       "A strategy for reducing energy usage"
     ],
@@ -118,10 +118,10 @@
   {
     "question": "What is a chatbot?",
     "options": [
-      "A conversational AI used for customer service",
       "A hardware device for communication",
       "A voice assistant for controlling smart devices",
-      "A virtual assistant for managing data"
+      "A virtual assistant for managing data",
+      "A conversational AI used for customer service"
     ],
     "correctOption": "A conversational AI used for customer service",
     "points": 10
@@ -129,9 +129,9 @@
   {
     "question": "Which AI technique is commonly used for image recognition?",
     "options": [
-      "Convolutional Neural Networks (CNNs)",
       "Support Vector Machines (SVMs)",
       "Random Forests",
+      "Convolutional Neural Networks (CNNs)",
       "K-means clustering"
     ],
     "correctOption": "Convolutional Neural Networks (CNNs)",
@@ -140,9 +140,9 @@
   {
     "question": "What is natural language processing (NLP)?",
     "options": [
-      "A field of AI focused on the interaction between computers and human language",
       "A method for training machine learning models",
       "A type of neural network for image recognition",
+      "A field of AI focused on the interaction between computers and human language",
       "A hardware architecture for AI applications"
     ],
     "correctOption": "A field of AI focused on the interaction between computers and human language",
@@ -173,8 +173,8 @@
   {
     "question": "What is the difference between AI and traditional programming?",
     "options": [
-      "AI systems learn from data, while traditional programming uses explicit rules",
       "AI is faster than traditional programming",
+      "AI systems learn from data, while traditional programming uses explicit rules",
       "Traditional programming is more accurate than AI",
       "There is no difference between AI and traditional programming"
     ],
@@ -184,9 +184,9 @@
   {
     "question": "What is the 'AI Winter'?",
     "options": [
-      "A period of reduced funding and interest in AI research",
       "A phase of rapid growth in AI technologies",
       "A time when AI models become too complex to manage",
+      "A period of reduced funding and interest in AI research",
       "A period of high demand for AI professionals"
     ],
     "correctOption": "A period of reduced funding and interest in AI research",
@@ -195,8 +195,8 @@
   {
     "question": "What does the term 'singularity' mean in AI?",
     "options": [
-      "The point at which AI surpasses human intelligence",
       "A type of neural network",
+      "The point at which AI surpasses human intelligence",
       "A form of AI that operates in isolation",
       "The point where AI is no longer controllable"
     ],
@@ -217,10 +217,10 @@
   {
     "question": "What is an AI-powered recommendation system?",
     "options": [
-      "A system that suggests products, content, or actions based on user preferences and behavior",
       "A system that analyzes user feedback for improving AI models",
       "A system that creates advertisements for users",
-      "A system that determines the popularity of web pages"
+      "A system that determines the popularity of web pages",
+      "A system that suggests products, content, or actions based on user preferences and behavior"
     ],
     "correctOption": "A system that suggests products, content, or actions based on user preferences and behavior",
     "points": 10
@@ -228,9 +228,9 @@
   {
     "question": "What is a 'decision tree' in machine learning?",
     "options": [
-      "A model that makes decisions based on a series of branching conditions",
       "A type of neural network for image recognition",
       "A method for clustering data",
+      "A model that makes decisions based on a series of branching conditions",
       "A method for optimizing AI performance"
     ],
     "correctOption": "A model that makes decisions based on a series of branching conditions",
@@ -239,8 +239,8 @@
   {
     "question": "What is 'data mining' in the context of AI?",
     "options": [
-      "The process of analyzing large datasets to uncover patterns or insights",
       "The process of cleaning data",
+      "The process of analyzing large datasets to uncover patterns or insights",
       "The process of generating random data",
       "The process of storing data securely"
     ],

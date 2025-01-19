@@ -2,8 +2,8 @@
   {
     "question": "What does the 'ls' command do in Linux?",
     "options": [
-      "Lists files and directories",
       "Displays system information",
+      "Lists files and directories",
       "Moves files and directories",
       "Deletes files"
     ],
@@ -13,9 +13,9 @@
   {
     "question": "What is the purpose of the 'chmod' command in Linux?",
     "options": [
-      "Changes file permissions",
       "Changes file ownership",
       "Lists file contents",
+      "Changes file permissions",
       "Changes file content"
     ],
     "correctOption": "Changes file permissions",
@@ -24,10 +24,10 @@
   {
     "question": "What is the 'root' user in Linux?",
     "options": [
-      "The superuser with full system access",
       "A regular user with limited access",
       "A file manager",
-      "A system process"
+      "A system process",
+      "The superuser with full system access"
     ],
     "correctOption": "The superuser with full system access",
     "points": 10
@@ -41,8 +41,8 @@
   {
     "question": "What does the 'pwd' command do in Linux?",
     "options": [
-      "Prints the working directory",
       "Prints the last logged in user",
+      "Prints the working directory",
       "Lists all files",
       "Changes the current directory"
     ],
@@ -52,9 +52,9 @@
   {
     "question": "What is a Linux shell?",
     "options": [
-      "A command-line interface for interacting with the system",
       "A graphical user interface for interacting with the system",
       "A file management tool",
+      "A command-line interface for interacting with the system",
       "A networking tool"
     ],
     "correctOption": "A command-line interface for interacting with the system",
@@ -62,16 +62,16 @@
   },
   {
     "question": "Which command is used to display the contents of a file in Linux?",
-    "options": ["cat", "ls", "touch", "rm"],
+    "options": ["ls", "touch", "rm", "cat"],
     "correctOption": "cat",
     "points": 10
   },
   {
     "question": "What does the 'cp' command do in Linux?",
     "options": [
-      "Copies files and directories",
       "Changes file permissions",
       "Deletes files",
+      "Copies files and directories",
       "Moves files"
     ],
     "correctOption": "Copies files and directories",
@@ -80,8 +80,8 @@
   {
     "question": "How do you make a file executable in Linux?",
     "options": [
-      "chmod +x filename",
       "chmod 777 filename",
+      "chmod +x filename",
       "mv filename /bin",
       "cp filename /usr"
     ],
@@ -90,17 +90,17 @@
   },
   {
     "question": "Which command is used to view the manual for a command in Linux?",
-    "options": ["man", "help", "info", "guide"],
+    "options": ["help", "info", "man", "guide"],
     "correctOption": "man",
     "points": 10
   },
   {
     "question": "What does the 'rm' command do in Linux?",
     "options": [
-      "Deletes files and directories",
       "Renames files and directories",
       "Lists files",
-      "Moves files"
+      "Moves files",
+      "Deletes files and directories"
     ],
     "correctOption": "Deletes files and directories",
     "points": 10
@@ -108,8 +108,8 @@
   {
     "question": "What is a Linux distribution?",
     "options": [
-      "A complete operating system built from the Linux kernel",
       "A file manager for Linux",
+      "A complete operating system built from the Linux kernel",
       "A type of Linux shell",
       "A Linux user group"
     ],
@@ -119,10 +119,10 @@
   {
     "question": "What is the 'ls -l' command used for in Linux?",
     "options": [
-      "Displays detailed information about files and directories",
       "Lists files in reverse order",
       "Changes the current directory",
-      "Displays hidden files"
+      "Displays hidden files",
+      "Displays detailed information about files and directories"
     ],
     "correctOption": "Displays detailed information about files and directories",
     "points": 10
@@ -130,9 +130,9 @@
   {
     "question": "What is the purpose of the 'grep' command in Linux?",
     "options": [
-      "Searches for a pattern within files",
       "Changes file permissions",
       "Lists files",
+      "Searches for a pattern within files",
       "Copies files"
     ],
     "correctOption": "Searches for a pattern within files",
@@ -158,8 +158,8 @@
   {
     "question": "What is the purpose of the 'sudo' command in Linux?",
     "options": [
-      "Executes commands with superuser privileges",
       "Changes file permissions",
+      "Executes commands with superuser privileges",
       "Displays system information",
       "Lists files"
     ],
@@ -180,9 +180,9 @@
   {
     "question": "What is the purpose of the 'ifconfig' command in Linux?",
     "options": [
-      "Displays network configuration information",
       "Displays system information",
       "Manages disk partitions",
+      "Displays network configuration information",
       "Changes file permissions"
     ],
     "correctOption": "Displays network configuration information",
@@ -191,10 +191,10 @@
   {
     "question": "What is the 'vi' editor in Linux?",
     "options": [
-      "A text editor",
       "A file management tool",
       "A web server",
-      "A system monitor"
+      "A system monitor",
+      "A text editor"
     ],
     "correctOption": "A text editor",
     "points": 10
@@ -208,9 +208,9 @@
   {
     "question": "What is the 'ps' command used for in Linux?",
     "options": [
-      "Displays a list of running processes",
       "Displays file contents",
       "Changes file permissions",
+      "Displays a list of running processes",
       "Displays disk space usage"
     ],
     "correctOption": "Displays a list of running processes",
@@ -225,8 +225,8 @@
   {
     "question": "What is the 'man' command used for in Linux?",
     "options": [
-      "Displays the manual for a command",
       "Creates a new file",
+      "Displays the manual for a command",
       "Lists files in a directory",
       "Changes the current directory"
     ],
@@ -247,9 +247,9 @@
   {
     "question": "What is the purpose of the 'kill' command in Linux?",
     "options": [
-      "Terminates processes",
       "Kills a user session",
       "Deletes files",
+      "Terminates processes",
       "Clears the terminal screen"
     ],
     "correctOption": "Terminates processes",
@@ -258,10 +258,10 @@
   {
     "question": "What does the 'whoami' command do in Linux?",
     "options": [
-      "Displays the current logged-in user",
       "Displays the current system date and time",
       "Displays a list of users",
-      "Displays system processes"
+      "Displays system processes",
+      "Displays the current logged-in user"
     ],
     "correctOption": "Displays the current logged-in user",
     "points": 10
@@ -286,8 +286,8 @@
   {
     "question": "What does the 'grep' command do in Linux?",
     "options": [
-      "Searches for patterns in a file",
       "Displays system information",
+      "Searches for patterns in a file",
       "Lists all running processes",
       "Displays file permissions"
     ],

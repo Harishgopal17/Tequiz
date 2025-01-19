@@ -41,10 +41,10 @@
   {
     "question": "What is JSX?",
     "options": [
-      "JavaScript XML",
       "JavaScript Extension",
       "A syntax for writing backend code",
-      "A new programming language"
+      "A new programming language",
+      "JavaScript XML"
     ],
     "correctOption": "JavaScript XML",
     "points": 10
@@ -58,9 +58,9 @@
   {
     "question": "Which method is used to render a React element into the DOM?",
     "options": [
+      "ReactElement.render()",
       "React.render()",
       "ReactDOM.render()",
-      "ReactElement.render()",
       "renderDOM()"
     ],
     "correctOption": "ReactDOM.render()",
@@ -81,8 +81,8 @@
     "question": "What is a React state?",
     "options": [
       "A global variable",
-      "A way to manage dynamic data in a component",
       "A property inherited from props",
+      "A way to manage dynamic data in a component",
       "An external library"
     ],
     "correctOption": "A way to manage dynamic data in a component",
@@ -98,9 +98,9 @@
     "question": "What is the purpose of useEffect hook?",
     "options": [
       "To manage state",
-      "To fetch data and handle side effects",
       "To define component props",
-      "To create context"
+      "To create context",
+      "To fetch data and handle side effects"
     ],
     "correctOption": "To fetch data and handle side effects",
     "points": 10
@@ -108,9 +108,9 @@
   {
     "question": "How do you pass data from a parent component to a child component?",
     "options": [
-      "Using props",
       "Using state",
       "Using context",
+      "Using props",
       "Using reducers"
     ],
     "correctOption": "Using props",
@@ -119,8 +119,8 @@
   {
     "question": "What is React Fragment?",
     "options": [
-      "A lightweight component to group multiple elements",
       "A method to fetch data",
+      "A lightweight component to group multiple elements",
       "A library for managing state",
       "A type of prop"
     ],
@@ -174,9 +174,9 @@
   {
     "question": "What is React's Strict Mode?",
     "options": [
-      "A tool for highlighting potential problems in an application",
       "A library for managing errors",
       "A mode for optimizing performance",
+      "A tool for highlighting potential problems in an application",
       "A debugging framework"
     ],
     "correctOption": "A tool for highlighting potential problems in an application",
@@ -258,9 +258,9 @@
   {
     "question": "What is the purpose of React.memo?",
     "options": [
-      "To prevent unnecessary re-renders",
       "To handle side effects",
       "To manage state",
+      "To prevent unnecessary re-renders",
       "To fetch data"
     ],
     "correctOption": "To prevent unnecessary re-renders",
@@ -269,8 +269,8 @@
   {
     "question": "What is server-side rendering in React?",
     "options": [
-      "Rendering React components on the server before sending HTML to the browser",
       "A way to optimize performance",
+      "Rendering React components on the server before sending HTML to the browser",
       "A method for rendering error messages",
       "A debugging tool"
     ],
@@ -291,10 +291,10 @@
   {
     "question": "What is hydration in React?",
     "options": [
-      "Restoring the app state in the browser using server-rendered HTML",
       "Adding interactivity to a component",
       "Optimizing data fetching",
-      "Using state in functional components"
+      "Using state in functional components",
+      "Restoring the app state in the browser using server-rendered HTML"
     ],
     "correctOption": "Restoring the app state in the browser using server-rendered HTML",
     "points": 10

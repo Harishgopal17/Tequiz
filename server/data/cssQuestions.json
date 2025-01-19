@@ -2,8 +2,8 @@
   {
     "question": "What does CSS stand for?",
     "options": [
-      "Cascading Style Sheets",
       "Creative Style Sheets",
+      "Cascading Style Sheets",
       "Computer Style Sheets",
       "Colorful Style Sheets"
     ],
@@ -12,7 +12,7 @@
   },
   {
     "question": "Which property is used to change the background color of an element?",
-    "options": ["color", "background", "background-color", "bgcolor"],
+    "options": ["background", "background-color", "color", "bgcolor"],
     "correctOption": "background-color",
     "points": 10
   },
@@ -24,15 +24,15 @@
   },
   {
     "question": "Which CSS property controls the text size?",
-    "options": ["font-style", "text-size", "font-size", "size"],
+    "options": ["text-size", "font-size", "size", "font-style"],
     "correctOption": "font-size",
     "points": 10
   },
   {
     "question": "How do you make a list not display bullet points?",
     "options": [
-      "list-type: none",
       "list-style: none",
+      "list-type: none",
       "text-style: none",
       "bullet-style: none"
     ],
@@ -41,7 +41,7 @@
   },
   {
     "question": "Which property is used to change the font of an element?",
-    "options": ["font", "font-family", "font-style", "text-font"],
+    "options": ["font-family", "font-style", "font", "text-font"],
     "correctOption": "font-family",
     "points": 10
   },
@@ -53,13 +53,13 @@
   },
   {
     "question": "Which property is used to add space outside an element's border?",
-    "options": ["margin", "padding", "border-spacing", "spacing"],
+    "options": ["padding", "border-spacing", "margin", "spacing"],
     "correctOption": "margin",
     "points": 10
   },
   {
     "question": "Which CSS property is used to make text bold?",
-    "options": ["font-weight", "font-style", "text-weight", "bold"],
+    "options": ["font-style", "font-weight", "text-weight", "bold"],
     "correctOption": "font-weight",
     "points": 10
   },
@@ -71,7 +71,7 @@
   },
   {
     "question": "How do you select all elements with the class 'btn' in CSS?",
-    "options": [".btn", "#btn", "btn", "*btn"],
+    "options": [".btn", "#btn", "btn", "*btn", ".btn"],
     "correctOption": ".btn",
     "points": 10
   },
@@ -109,8 +109,8 @@
     "question": "Which CSS property is used to create rounded corners?",
     "options": [
       "border-style",
-      "corner-radius",
       "border-radius",
+      "corner-radius",
       "round-corners"
     ],
     "correctOption": "border-radius",
@@ -137,8 +137,8 @@
   {
     "question": "Which CSS property is used to control the space between letters in text?",
     "options": [
-      "letter-spacing",
       "word-spacing",
+      "letter-spacing",
       "text-spacing",
       "line-spacing"
     ],
@@ -148,10 +148,10 @@
   {
     "question": "Which CSS property is used to transform text to uppercase?",
     "options": [
-      "text-transform",
       "text-case",
       "text-decoration",
-      "transform-text"
+      "transform-text",
+      "text-transform"
     ],
     "correctOption": "text-transform",
     "points": 10
@@ -159,8 +159,8 @@
   {
     "question": "What is the purpose of the overflow property in CSS?",
     "options": [
-      "To hide overflowing content",
       "To control text alignment",
+      "To hide overflowing content",
       "To add margins",
       "To set font size"
     ],

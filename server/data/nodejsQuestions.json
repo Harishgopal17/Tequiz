@@ -3,8 +3,8 @@
     "question": "What is Node.js?",
     "options": [
       "A JavaScript framework",
-      "A JavaScript runtime environment",
       "A web browser",
+      "A JavaScript runtime environment",
       "A database management system"
     ],
     "correctOption": "A JavaScript runtime environment",
@@ -20,9 +20,9 @@
     "question": "What does npm stand for?",
     "options": [
       "Node.js Project Manager",
-      "Node Package Manager",
       "Network Protocol Manager",
-      "New Project Manager"
+      "New Project Manager",
+      "Node Package Manager"
     ],
     "correctOption": "Node Package Manager",
     "points": 10
@@ -30,8 +30,8 @@
   {
     "question": "What is the primary use of Node.js?",
     "options": [
-      "Developing desktop applications",
       "Building server-side and networking applications",
+      "Developing desktop applications",
       "Designing user interfaces",
       "Managing databases"
     ],
@@ -48,8 +48,8 @@
     "question": "What is the default scope of a module in Node.js?",
     "options": [
       "Global",
-      "Local to the file",
       "Shared across all files",
+      "Local to the file",
       "None of the above"
     ],
     "correctOption": "Local to the file",
@@ -64,9 +64,9 @@
   {
     "question": "What is a middleware in Node.js?",
     "options": [
-      "A function that handles requests and responses",
       "A library for managing dependencies",
       "A tool for testing applications",
+      "A function that handles requests and responses",
       "A framework for building APIs"
     ],
     "correctOption": "A function that handles requests and responses",
@@ -115,10 +115,10 @@
   {
     "question": "What does 'require()' do in Node.js?",
     "options": [
-      "Loads modules and libraries",
       "Compiles JavaScript code",
       "Handles HTTP requests",
-      "Manages sessions"
+      "Manages sessions",
+      "Loads modules and libraries"
     ],
     "correctOption": "Loads modules and libraries",
     "points": 10
@@ -165,9 +165,9 @@
   {
     "question": "What is the purpose of the 'eventEmitter' module in Node.js?",
     "options": [
-      "To manage events",
       "To read files",
       "To handle HTTP requests",
+      "To manage events",
       "To schedule tasks"
     ],
     "correctOption": "To manage events",
@@ -176,9 +176,9 @@
   {
     "question": "What is the significance of 'process.env' in Node.js?",
     "options": [
-      "It provides access to environment variables",
       "It handles file paths",
       "It creates a new process",
+      "It provides access to environment variables",
       "It schedules tasks"
     ],
     "correctOption": "It provides access to environment variables",
@@ -187,10 +187,10 @@
   {
     "question": "What is the purpose of the 'cluster' module in Node.js?",
     "options": [
-      "To enable multi-threading",
       "To split files",
       "To manage processes",
-      "To create new modules"
+      "To create new modules",
+      "To enable multi-threading"
     ],
     "correctOption": "To enable multi-threading",
     "points": 10
@@ -215,10 +215,10 @@
   {
     "question": "What is the use of the 'os' module in Node.js?",
     "options": [
-      "To provide operating system-related utility methods",
       "To manage HTTP requests",
       "To interact with file systems",
-      "To execute shell scripts"
+      "To execute shell scripts",
+      "To provide operating system-related utility methods"
     ],
     "correctOption": "To provide operating system-related utility methods",
     "points": 10
@@ -260,8 +260,8 @@
     "question": "Which method is used to terminate a Node.js process?",
     "options": [
       "process.kill()",
-      "process.exit()",
       "exit.process()",
+      "process.exit()",
       "terminate()"
     ],
     "correctOption": "process.exit()",

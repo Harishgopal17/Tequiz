@@ -50,7 +50,7 @@ const ProtectedRoute = ({ children }) => {
       <div
         className={`${
           loading ? "absolute" : "hidden"
-        } top-0 left-0 h-screen w-screen z-50 flex justify-center items-center`}
+        } top-0 left-0 h-screen w-screen z-50 flex justify-center items-center bg-transparent`}
       >
         <div className="loading"></div>
       </div>

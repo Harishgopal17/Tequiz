@@ -2,8 +2,8 @@
   {
     "question": "What does JVM stand for?",
     "options": [
-      "Java Virtual Machine",
       "Java Variable Manager",
+      "Java Virtual Machine",
       "Java Value Modifier",
       "Java Virtual Modifier"
     ],
@@ -18,13 +18,13 @@
   },
   {
     "question": "Which of these is used to define a constant in Java?",
-    "options": ["final", "constant", "static", "immutable"],
+    "options": ["constant", "static", "immutable", "final"],
     "correctOption": "final",
     "points": 10
   },
   {
     "question": "What is the default value of an object reference in Java?",
-    "options": ["null", "0", "undefined", "empty"],
+    "options": ["0", "undefined", "null", "empty"],
     "correctOption": "null",
     "points": 10
   },
@@ -48,7 +48,7 @@
   },
   {
     "question": "Which keyword is used to inherit a class in Java?",
-    "options": ["extends", "inherits", "super", "this"],
+    "options": ["inherits", "extends", "super", "this"],
     "correctOption": "extends",
     "points": 10
   },
@@ -61,31 +61,31 @@
   {
     "question": "What is the correct way to declare a multi-line comment in Java?",
     "options": [
-      "/* comment */",
       "// comment //",
       "<!-- comment -->",
-      "-- comment --"
+      "-- comment --",
+      "/* comment */"
     ],
     "correctOption": "/* comment */",
     "points": 10
   },
   {
     "question": "Which of these keywords is used to prevent a method from being overridden in Java?",
-    "options": ["final", "static", "private", "abstract"],
+    "options": ["static", "final", "private", "abstract"],
     "correctOption": "final",
     "points": 10
   },
   {
     "question": "Which of these methods is used to find the length of a string in Java?",
-    "options": ["length()", "size()", "count()", "length"],
+    "options": ["size()", "count()", "length()", "length"],
     "correctOption": "length()",
     "points": 10
   },
   {
     "question": "What does the 'super' keyword refer to in Java?",
     "options": [
-      "The parent class of the current object",
       "The current class",
+      "The parent class of the current object",
       "The static methods of the current class",
       "The interface implemented by the current class"
     ],
@@ -95,10 +95,10 @@
   {
     "question": "What is the purpose of the 'static' keyword in Java?",
     "options": [
-      "To make a method or variable accessible without creating an instance of the class",
       "To declare a constant value",
       "To make a method abstract",
-      "To inherit properties from a class"
+      "To inherit properties from a class",
+      "To make a method or variable accessible without creating an instance of the class"
     ],
     "correctOption": "To make a method or variable accessible without creating an instance of the class",
     "points": 10
@@ -106,9 +106,9 @@
   {
     "question": "Which of these is used to implement polymorphism in Java?",
     "options": [
-      "Method overloading and overriding",
       "Method overloading only",
       "Method overriding only",
+      "Method overloading and overriding",
       "Method hiding"
     ],
     "correctOption": "Method overloading and overriding",
@@ -117,10 +117,10 @@
   {
     "question": "Which of the following is used to create a thread in Java?",
     "options": [
-      "Thread class",
       "Runnable interface",
       "Runnable class",
-      "Thread interface"
+      "Thread interface",
+      "Thread class"
     ],
     "correctOption": "Thread class",
     "points": 10
@@ -133,27 +133,27 @@
   },
   {
     "question": "Which of these methods is used to stop a thread in Java?",
-    "options": ["stop()", "terminate()", "end()", "exit()"],
+    "options": ["terminate()", "stop()", "end()", "exit()"],
     "correctOption": "stop()",
     "points": 10
   },
   {
     "question": "Which class is the superclass of all classes in Java?",
-    "options": ["Object", "String", "Thread", "System"],
+    "options": ["String", "Thread", "System", "Object"],
     "correctOption": "Object",
     "points": 10
   },
   {
     "question": "Which of these access modifiers allows the highest level of access in Java?",
-    "options": ["public", "private", "protected", "default"],
+    "options": ["private", "protected", "public", "default"],
     "correctOption": "public",
     "points": 10
   },
   {
     "question": "What is the main use of the 'final' keyword in Java?",
     "options": [
-      "To restrict inheritance or modification of methods, variables, or classes",
       "To define an abstract class",
+      "To restrict inheritance or modification of methods, variables, or classes",
       "To declare an array",
       "To mark a method as synchronized"
     ],
@@ -179,16 +179,16 @@
   },
   {
     "question": "Which of the following is an example of a functional interface in Java?",
-    "options": ["Runnable", "Serializable", "Cloneable", "Iterable"],
+    "options": ["Serializable", "Runnable", "Cloneable", "Iterable"],
     "correctOption": "Runnable",
     "points": 10
   },
   {
     "question": "What does 'this' keyword refer to in Java?",
     "options": [
-      "The current object",
       "The parent class",
       "The static method of the current class",
+      "The current object",
       "A reference to a method"
     ],
     "correctOption": "The current object",
@@ -196,15 +196,15 @@
   },
   {
     "question": "What is the output of the following code snippet? 'int x = 5; System.out.println(x + 5);'",
-    "options": ["10", "15", "5", "Compilation error"],
+    "options": ["55", "15", "10", "Compilation error"],
     "correctOption": "10",
     "points": 10
   },
   {
     "question": "What does 'abstract' mean when used with a class or method in Java?",
     "options": [
-      "It cannot be instantiated or called directly",
       "It can be instantiated but not extended",
+      "It cannot be instantiated or called directly",
       "It can be called directly without any instance",
       "It can only be called from an instance"
     ],
@@ -220,10 +220,10 @@
   {
     "question": "What is the purpose of the 'instanceof' operator in Java?",
     "options": [
-      "To check if an object is an instance of a specific class or subclass",
       "To create a new instance of a class",
       "To compare two objects",
-      "To check if a method is available"
+      "To check if a method is available",
+      "To check if an object is an instance of a specific class or subclass"
     ],
     "correctOption": "To check if an object is an instance of a specific class or subclass",
     "points": 10
@@ -231,9 +231,9 @@
   {
     "question": "What is the purpose of the 'transient' keyword in Java?",
     "options": [
-      "To prevent serialization of a field",
       "To make a field final",
       "To ensure a field is always initialized",
+      "To prevent serialization of a field",
       "To mark a field as static"
     ],
     "correctOption": "To prevent serialization of a field",

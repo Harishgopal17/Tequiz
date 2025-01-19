@@ -38,17 +38,17 @@
   {
     "question": "What does HTML stand for?",
     "options": [
-      "HyperText Markup Language",
       "Hyperlink Text Markup Language",
       "HighText Machine Language",
-      "HyperText Machine Language"
+      "HyperText Machine Language",
+      "HyperText Markup Language"
     ],
     "correctOption": "HyperText Markup Language",
     "points": 10
   },
   {
     "question": "Which tag is used to add a line break in HTML?",
-    "options": ["<br>", "<lb>", "<break>", "<newline>"],
+    "options": ["<lb>", "<br>", "<break>", "<newline>"],
     "correctOption": "<br>",
     "points": 10
   },
@@ -83,7 +83,7 @@
   },
   {
     "question": "Which tag is used to create a drop-down list in HTML?",
-    "options": ["<select>", "<dropdown>", "<option>", "<list>"],
+    "options": ["<dropdown>", "<option>", "<list>", "<select>"],
     "correctOption": "<select>",
     "points": 10
   },
@@ -95,17 +95,17 @@
   },
   {
     "question": "Which element is used to define the header of a document or section?",
-    "options": ["<header>", "<head>", "<section>", "<div>"],
+    "options": ["<head>", "<section>", "<header>", "<div>"],
     "correctOption": "<header>",
     "points": 10
   },
   {
     "question": "What is the purpose of the <canvas> element in HTML?",
     "options": [
-      "To draw graphics",
       "To display images",
       "To add styles",
-      "To embed videos"
+      "To embed videos",
+      "To draw graphics"
     ],
     "correctOption": "To draw graphics",
     "points": 10
@@ -171,7 +171,7 @@
   },
   {
     "question": "Which element is used to define important text in HTML?",
-    "options": ["<strong>", "<important>", "<highlight>", "<b>"],
+    "options": ["<important>", "<highlight>", "<b>", "<strong>"],
     "correctOption": "<strong>",
     "points": 10
   },
@@ -189,13 +189,13 @@
   },
   {
     "question": "Which attribute is used to specify a URL in the <a> tag?",
-    "options": ["href", "url", "src", "link"],
+    "options": ["url", "href", "src", "link"],
     "correctOption": "href",
     "points": 10
   },
   {
     "question": "Which tag is used to create a horizontal line in HTML?",
-    "options": ["<hr>", "<line>", "<hl>", "<break>"],
+    "options": ["<line>", "<hl>", "<break>", "<hr>"],
     "correctOption": "<hr>",
     "points": 10
   }

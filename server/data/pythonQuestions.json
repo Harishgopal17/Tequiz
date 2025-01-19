@@ -8,8 +8,8 @@
   {
     "question": "What is the purpose of the 'self' keyword in Python?",
     "options": [
-      "It refers to the instance of the class",
       "It refers to the class itself",
+      "It refers to the instance of the class",
       "It refers to a global variable",
       "It is used to create a new object"
     ],
@@ -25,9 +25,9 @@
   {
     "question": "How do you create a function in Python?",
     "options": [
-      "def function_name():",
       "function function_name():",
       "create function_name():",
+      "def function_name():",
       "function_name := ()"
     ],
     "correctOption": "def function_name():",
@@ -41,7 +41,7 @@
   },
   {
     "question": "Which of the following is used to define a class in Python?",
-    "options": ["class", "def", "object", "struct"],
+    "options": ["def", "object", "struct", "class"],
     "correctOption": "class",
     "points": 10
   },
@@ -54,9 +54,9 @@
   {
     "question": "What is the purpose of the 'range()' function in Python?",
     "options": [
-      "Generates a sequence of numbers",
       "Returns the length of a list",
       "Converts a string to a list",
+      "Generates a sequence of numbers",
       "Generates a random number"
     ],
     "correctOption": "Generates a sequence of numbers",
@@ -65,8 +65,8 @@
   {
     "question": "What does the 'len()' function do in Python?",
     "options": [
-      "Returns the length of an object",
       "Converts a string to a list",
+      "Returns the length of an object",
       "Finds the largest number in a list",
       "Calculates the sum of a list"
     ],
@@ -76,9 +76,9 @@
   {
     "question": "How do you create a dictionary in Python?",
     "options": [
-      "dict = {'key': 'value'}",
       "dict = {'key' = 'value'}",
       "dict = ('key', 'value')",
+      "dict = {'key': 'value'}",
       "dict = key: value"
     ],
     "correctOption": "dict = {'key': 'value'}",
@@ -93,9 +93,9 @@
   {
     "question": "What does the 'break' statement do in Python?",
     "options": [
-      "Exits from the current loop",
       "Pauses the loop",
       "Skips to the next iteration of the loop",
+      "Exits from the current loop",
       "Exits from the function"
     ],
     "correctOption": "Exits from the current loop",
@@ -110,10 +110,10 @@
   {
     "question": "What is the correct way to open a file for reading in Python?",
     "options": [
-      "open('file.txt', 'r')",
       "file.open('file.txt', 'r')",
       "open('file.txt')",
-      "open('file.txt', 'read')"
+      "open('file.txt', 'read')",
+      "open('file.txt', 'r')"
     ],
     "correctOption": "open('file.txt', 'r')",
     "points": 10
@@ -133,8 +133,8 @@
   {
     "question": "What is a tuple in Python?",
     "options": [
-      "An immutable sequence of items",
       "A mutable sequence of items",
+      "An immutable sequence of items",
       "A function",
       "A dictionary"
     ],
@@ -144,9 +144,9 @@
   {
     "question": "What is the output of the following code: print(type(3.5))?",
     "options": [
-      "<class 'float'>",
       "<class 'int'>",
       "<class 'str'>",
+      "<class 'float'>",
       "<class 'list'>"
     ],
     "correctOption": "<class 'float'>",
@@ -155,10 +155,10 @@
   {
     "question": "What is the purpose of the 'pass' statement in Python?",
     "options": [
-      "It acts as a placeholder for future code",
       "It exits the function",
       "It throws an error",
-      "It defines a variable"
+      "It defines a variable",
+      "It acts as a placeholder for future code"
     ],
     "correctOption": "It acts as a placeholder for future code",
     "points": 10
@@ -166,9 +166,9 @@
   {
     "question": "How can you handle exceptions in Python?",
     "options": [
-      "using try-except blocks",
       "using catch blocks",
       "using if-else statements",
+      "using try-except blocks",
       "using exception()"
     ],
     "correctOption": "using try-except blocks",
@@ -183,10 +183,10 @@
   {
     "question": "What is the difference between '==' and 'is' in Python?",
     "options": [
-      "'==' compares values, 'is' compares object identity",
       "'==' compares object identity, 'is' compares values",
       "'==' compares data types, 'is' compares values",
-      "'==' compares references, 'is' compares data types"
+      "'==' compares references, 'is' compares data types",
+      "'==' compares values, 'is' compares object identity"
     ],
     "correctOption": "'==' compares values, 'is' compares object identity",
     "points": 10
@@ -194,9 +194,9 @@
   {
     "question": "What does the 'del' statement do in Python?",
     "options": [
-      "Deletes a variable",
       "Deletes an element from a list",
       "Deletes a dictionary key",
+      "Deletes a variable",
       "All of the above"
     ],
     "correctOption": "All of the above",
@@ -217,8 +217,8 @@
   {
     "question": "What does the 'join()' method do in Python?",
     "options": [
-      "Joins elements of a sequence into a string",
       "Joins two lists",
+      "Joins elements of a sequence into a string",
       "Joins two strings",
       "Joins elements of a dictionary"
     ],

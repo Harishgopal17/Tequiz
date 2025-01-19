@@ -24,7 +24,7 @@
   },
   {
     "question": "Which PHP tag is used to write PHP code?",
-    "options": ["<?php ?>", "<php>", "<script>", "<? ?>"],
+    "options": ["<php>", "<script>", "<? ?>", "<?php ?>"],
     "correctOption": "<?php ?>",
     "points": 10
   },
@@ -71,9 +71,9 @@
   {
     "question": "What does isset() function do in PHP?",
     "options": [
-      "Checks if a variable is set and is not NULL",
       "Initializes a variable",
       "Returns the value of a variable",
+      "Checks if a variable is set and is not NULL",
       "Deletes a variable"
     ],
     "correctOption": "Checks if a variable is set and is not NULL",
@@ -82,8 +82,8 @@
   {
     "question": "Which function is used to connect to a MySQL database in PHP?",
     "options": [
-      "mysqli_connect()",
       "mysql_connect()",
+      "mysqli_connect()",
       "connect()",
       "db_connect()"
     ],
@@ -104,10 +104,10 @@
   {
     "question": "Which method is used to redirect to another page in PHP?",
     "options": [
-      "header('Location: url');",
       "redirect('url');",
       "move('url');",
-      "navigate('url');"
+      "navigate('url');",
+      "header('Location: url');"
     ],
     "correctOption": "header('Location: url');",
     "points": 10
@@ -115,9 +115,9 @@
   {
     "question": "What is the purpose of the PHP die() function?",
     "options": [
-      "Terminates the script",
       "Pauses the script",
       "Exits the browser",
+      "Terminates the script",
       "Throws an error"
     ],
     "correctOption": "Terminates the script",
@@ -154,8 +154,8 @@
   {
     "question": "How can you retrieve the IP address of the client in PHP?",
     "options": [
-      "$_SERVER['REMOTE_ADDR']",
       "$_SERVER['IP_ADDRESS']",
+      "$_SERVER['REMOTE_ADDR']",
       "$_ENV['CLIENT_IP']",
       "$_ENV['REMOTE_ADDR']"
     ],
@@ -171,9 +171,9 @@
   {
     "question": "What is the purpose of the explode() function in PHP?",
     "options": [
-      "Splits a string into an array",
       "Joins an array into a string",
       "Reverses a string",
+      "Splits a string into an array",
       "Encodes a string"
     ],
     "correctOption": "Splits a string into an array",
@@ -199,8 +199,8 @@
   {
     "question": "What is the purpose of the isset() function in PHP?",
     "options": [
-      "Checks if a variable is set",
       "Deletes a variable",
+      "Checks if a variable is set",
       "Checks if a variable is an array",
       "Initializes a variable"
     ],
@@ -216,10 +216,10 @@
   {
     "question": "What is the purpose of the PHP trim() function?",
     "options": [
-      "Removes whitespace from the beginning and end of a string",
       "Converts a string to uppercase",
       "Reverses a string",
-      "Trims an array"
+      "Trims an array",
+      "Removes whitespace from the beginning and end of a string"
     ],
     "correctOption": "Removes whitespace from the beginning and end of a string",
     "points": 10
@@ -244,8 +244,8 @@
   {
     "question": "What is the purpose of the PHP array_merge() function?",
     "options": [
-      "Merges two or more arrays into one",
       "Splits an array into two parts",
+      "Merges two or more arrays into one",
       "Finds the intersection of two arrays",
       "Finds the difference between two arrays"
     ],
@@ -261,9 +261,9 @@
   {
     "question": "What is the use of the PHP json_encode() function?",
     "options": [
-      "Converts PHP objects or arrays into JSON format",
       "Converts JSON into PHP arrays",
       "Encodes a string",
+      "Converts PHP objects or arrays into JSON format",
       "Encrypts data"
     ],
     "correctOption": "Converts PHP objects or arrays into JSON format",

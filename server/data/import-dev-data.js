@@ -89,8 +89,8 @@ const delmultiple = async () => {
   process.exit();
 };
 
-if (process.argv[2] === '--impmul') impmultiple();
-if (process.argv[2] === '--delmul') delmultiple();
+if (process.argv[2] === '--impmul') impmultiple(); //node .\data\import-dev-data.js --impmul
+if (process.argv[2] === '--delmul') delmultiple(); //node .\data\import-dev-data.js --delmul
 
 // const questions = JSON.parse(
 //   fs.readFileSync(`${__dirname}/${process.argv[2]}.json`, 'utf-8')
@@ -131,5 +131,7 @@ const deleteDAta = async () => {
 // 3rd index is model
 // 4thd index is condition
 
-if (process.argv[4] === '--import') importData();
-if (process.argv[4] === '--delete') deleteDAta();
+if (process.argv[4] === '--import') importData(); //node .\data\import-dev-data.js _ HtmlQuiz --import
+if (process.argv[4] === '--delete') deleteDAta(); //node .\data\import-dev-data.js _ HtmlQuiz --delete
+
+console.log(process.argv);

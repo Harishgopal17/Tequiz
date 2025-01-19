@@ -31,8 +31,8 @@
   {
     "question": "What is the correct syntax for a for loop in JavaScript?",
     "options": [
-      "for (i in array)",
       "for (let i = 0; i < 5; i++)",
+      "for (i in array)",
       "for each (item in array)",
       "foreach (item in array)"
     ],
@@ -47,15 +47,15 @@
   },
   {
     "question": "What is the output of '2' + 2 in JavaScript?",
-    "options": ["4", "22", "NaN", "undefined"],
+    "options": ["NaN", "22", "4", "undefined"],
     "correctOption": "22",
     "points": 10
   },
   {
     "question": "What does the '===' operator do in JavaScript?",
     "options": [
-      "Checks equality of value and type",
       "Checks equality of value only",
+      "Checks equality of value and type",
       "Checks if both are objects",
       "Assigns a value"
     ],
@@ -66,9 +66,9 @@
     "question": "Which method converts a JSON string into a JavaScript object?",
     "options": [
       "JSON.stringify()",
-      "JSON.parse()",
       "parseJSON()",
-      "convertJSON()"
+      "convertJSON()",
+      "JSON.parse()"
     ],
     "correctOption": "JSON.parse()",
     "points": 10
@@ -77,8 +77,8 @@
     "question": "What is the correct way to write an arrow function?",
     "options": [
       "function => () {}",
-      "() => {}",
       "=> function {}",
+      "() => {}",
       "arrow() {}"
     ],
     "correctOption": "() => {}",
@@ -104,16 +104,16 @@
   },
   {
     "question": "Which method removes the last element of an array?",
-    "options": ["pop()", "push()", "shift()", "splice()"],
+    "options": ["push()", "shift()", "pop()", "splice()"],
     "correctOption": "pop()",
     "points": 10
   },
   {
     "question": "How do you write a function in JavaScript?",
     "options": [
-      "function myFunction() {}",
       "def myFunction() {}",
       "function: myFunction() {}",
+      "function myFunction() {}",
       "myFunction function() {}"
     ],
     "correctOption": "function myFunction() {}",
@@ -122,31 +122,31 @@
   {
     "question": "What does 'NaN' stand for in JavaScript?",
     "options": [
-      "Not a Number",
       "Null and Null",
       "New Array Number",
-      "No any Number"
+      "No any Number",
+      "Not a Number"
     ],
     "correctOption": "Not a Number",
     "points": 10
   },
   {
     "question": "Which statement is used to handle exceptions in JavaScript?",
-    "options": ["try...catch", "exception", "error", "catch...error"],
+    "options": ["exception", "error", "try...catch", "catch...error"],
     "correctOption": "try...catch",
     "points": 10
   },
   {
     "question": "Which method is used to join two or more arrays?",
-    "options": ["concat()", "join()", "merge()", "append()"],
+    "options": ["join()", "concat()", "merge()", "append()"],
     "correctOption": "concat()",
     "points": 10
   },
   {
     "question": "What does the 'this' keyword refer to in JavaScript?",
     "options": [
-      "The current object",
       "The global object",
+      "The current object",
       "The parent object",
       "None of the above"
     ],
@@ -162,9 +162,9 @@
   {
     "question": "What is an Immediately Invoked Function Expression (IIFE)?",
     "options": [
-      "A function that runs as soon as it is defined",
       "A function that runs when called",
       "A function with no arguments",
+      "A function that runs as soon as it is defined",
       "A function without a name"
     ],
     "correctOption": "A function that runs as soon as it is defined",
@@ -196,9 +196,9 @@
   {
     "question": "What is the correct way to write a conditional statement in JavaScript?",
     "options": [
-      "if (x > y) {}",
       "if x > y {}",
       "if x > y then {}",
+      "if (x > y) {}",
       "if (x > y) then {}"
     ],
     "correctOption": "if (x > y) {}",

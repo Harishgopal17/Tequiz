@@ -2,8 +2,8 @@
   {
     "question": "What does SQL stand for?",
     "options": [
-      "Structured Query Language",
       "System Query Language",
+      "Structured Query Language",
       "Sequential Query Language",
       "Standard Query Language"
     ],
@@ -19,9 +19,9 @@
   {
     "question": "What is the purpose of the WHERE clause in SQL?",
     "options": [
-      "To filter records",
       "To group records",
       "To sort records",
+      "To filter records",
       "To delete records"
     ],
     "correctOption": "To filter records",
@@ -48,10 +48,10 @@
   {
     "question": "What does the JOIN keyword do in SQL?",
     "options": [
-      "Combines rows from two or more tables",
       "Deletes rows from a table",
       "Filters rows based on conditions",
-      "Sorts rows in ascending order"
+      "Sorts rows in ascending order",
+      "Combines rows from two or more tables"
     ],
     "correctOption": "Combines rows from two or more tables",
     "points": 10
@@ -71,10 +71,10 @@
   {
     "question": "What is a primary key in SQL?",
     "options": [
-      "A unique identifier for each record in a table",
       "A column that stores encrypted data",
       "A foreign key reference",
-      "A column used to store dates"
+      "A column used to store dates",
+      "A unique identifier for each record in a table"
     ],
     "correctOption": "A unique identifier for each record in a table",
     "points": 10
@@ -88,9 +88,9 @@
   {
     "question": "What is the purpose of the HAVING clause in SQL?",
     "options": [
-      "To filter groups of data",
       "To filter individual rows",
       "To sort the result set",
+      "To filter groups of data",
       "To create a new column"
     ],
     "correctOption": "To filter groups of data",
@@ -99,9 +99,9 @@
   {
     "question": "What is the purpose of the SQL GROUP BY clause?",
     "options": [
-      "To group rows with the same values",
       "To filter rows",
       "To join tables",
+      "To group rows with the same values",
       "To sort the result set"
     ],
     "correctOption": "To group rows with the same values",
@@ -110,8 +110,8 @@
   {
     "question": "What is a foreign key in SQL?",
     "options": [
-      "A field in a table that uniquely identifies a row in another table",
       "A field that stores encrypted data",
+      "A field in a table that uniquely identifies a row in another table",
       "A key that identifies duplicate rows",
       "A field used to group data"
     ],
@@ -157,8 +157,8 @@
   {
     "question": "What does the UNION operator do in SQL?",
     "options": [
-      "Combines the results of two SELECT statements",
       "Deletes duplicate rows",
+      "Combines the results of two SELECT statements",
       "Creates a new table",
       "Joins two tables"
     ],
@@ -168,9 +168,9 @@
   {
     "question": "Which command is used to delete a database in SQL?",
     "options": [
-      "DROP DATABASE",
       "DELETE DATABASE",
       "REMOVE DATABASE",
+      "DROP DATABASE",
       "CLEAR DATABASE"
     ],
     "correctOption": "DROP DATABASE",
@@ -203,9 +203,9 @@
   {
     "question": "What is a view in SQL?",
     "options": [
-      "A virtual table based on the result of a SELECT query",
       "A backup of the database",
       "A physical table in the database",
+      "A virtual table based on the result of a SELECT query",
       "A method to index columns"
     ],
     "correctOption": "A virtual table based on the result of a SELECT query",
@@ -220,9 +220,9 @@
   {
     "question": "What is the use of the SQL AVG() function?",
     "options": [
-      "To calculate the average value of a numeric column",
       "To count the number of rows",
       "To find the maximum value",
+      "To calculate the average value of a numeric column",
       "To return all distinct values"
     ],
     "correctOption": "To calculate the average value of a numeric column",
@@ -231,10 +231,10 @@
   {
     "question": "What is the purpose of the SQL IN operator?",
     "options": [
-      "To specify multiple values in a WHERE clause",
       "To create a new index",
       "To update rows",
-      "To delete rows"
+      "To delete rows",
+      "To specify multiple values in a WHERE clause"
     ],
     "correctOption": "To specify multiple values in a WHERE clause",
     "points": 10

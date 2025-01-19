@@ -24,8 +24,8 @@
   {
     "question": "What is a keyword in SEO?",
     "options": [
-      "A word or phrase that people search for on search engines",
       "A special HTML tag",
+      "A word or phrase that people search for on search engines",
       "A synonym for meta description",
       "A way to measure site traffic"
     ],
@@ -35,9 +35,9 @@
   {
     "question": "What is the purpose of meta tags in SEO?",
     "options": [
-      "To provide metadata about the webpage",
       "To add keywords to the content",
       "To increase the page load speed",
+      "To provide metadata about the webpage",
       "To hide the content from users"
     ],
     "correctOption": "To provide metadata about the webpage",
@@ -46,10 +46,10 @@
   {
     "question": "Which of the following is a good SEO practice for page titles?",
     "options": [
-      "Use relevant keywords",
       "Use the same title for all pages",
       "Use no title tag",
-      "Use random words"
+      "Use random words",
+      "Use relevant keywords"
     ],
     "correctOption": "Use relevant keywords",
     "points": 10
@@ -68,8 +68,8 @@
   {
     "question": "What is a backlink in SEO?",
     "options": [
-      "A link from another website to your website",
       "A link from your website to a social media platform",
+      "A link from another website to your website",
       "A link from a page to an image",
       "A link to an external website"
     ],
@@ -79,8 +79,8 @@
   {
     "question": "What is the purpose of using heading tags (H1, H2, etc.) in SEO?",
     "options": [
-      "To organize the content and improve readability",
       "To hide keywords from users",
+      "To organize the content and improve readability",
       "To add images to the page",
       "To make the page load faster"
     ],
@@ -112,8 +112,8 @@
   {
     "question": "What does the term 'long-tail keywords' refer to in SEO?",
     "options": [
-      "Keywords that are more specific and longer in length",
       "Keywords that are commonly used by everyone",
+      "Keywords that are more specific and longer in length",
       "Keywords that have no competition",
       "Keywords that are part of a website's title"
     ],
@@ -134,9 +134,9 @@
   {
     "question": "What is the purpose of a sitemap in SEO?",
     "options": [
-      "To help search engines find and index pages on a website",
       "To add images to a webpage",
       "To reduce the website's loading time",
+      "To help search engines find and index pages on a website",
       "To collect visitor data"
     ],
     "correctOption": "To help search engines find and index pages on a website",
@@ -156,8 +156,8 @@
   {
     "question": "What is the purpose of '404 errors' in SEO?",
     "options": [
-      "To inform the user that a page was not found",
       "To increase page load speed",
+      "To inform the user that a page was not found",
       "To improve content quality",
       "To improve mobile usability"
     ],
@@ -167,9 +167,9 @@
   {
     "question": "What is 'bounce rate' in SEO?",
     "options": [
-      "The percentage of visitors who leave the site after viewing only one page",
       "The percentage of visitors who navigate to other pages",
       "The percentage of visitors who interact with pop-up ads",
+      "The percentage of visitors who leave the site after viewing only one page",
       "The percentage of visitors who share content on social media"
     ],
     "correctOption": "The percentage of visitors who leave the site after viewing only one page",
@@ -178,10 +178,10 @@
   {
     "question": "What is the significance of 'page speed' in SEO?",
     "options": [
-      "Faster pages provide a better user experience and can improve rankings",
       "Slower pages rank better in search engines",
       "Page speed does not affect SEO",
-      "Page speed is only important for mobile devices"
+      "Page speed is only important for mobile devices",
+      "Faster pages provide a better user experience and can improve rankings"
     ],
     "correctOption": "Faster pages provide a better user experience and can improve rankings",
     "points": 10
@@ -200,8 +200,8 @@
   {
     "question": "What is 'content marketing' in SEO?",
     "options": [
-      "Creating valuable and relevant content to attract and engage visitors",
       "Buying links from other websites",
+      "Creating valuable and relevant content to attract and engage visitors",
       "Publishing articles with random keywords",
       "Posting only images on your site"
     ],
@@ -211,9 +211,9 @@
   {
     "question": "What is a 'landing page' in SEO?",
     "options": [
-      "A page designed to convert visitors into customers or leads",
       "A homepage of a website",
       "A page showing recent blog posts",
+      "A page designed to convert visitors into customers or leads",
       "A page with images only"
     ],
     "correctOption": "A page designed to convert visitors into customers or leads",
@@ -222,10 +222,10 @@
   {
     "question": "Which of the following is considered a black-hat SEO technique?",
     "options": [
-      "Keyword stuffing",
       "Building quality backlinks",
       "Using proper headings and meta descriptions",
-      "Creating useful content"
+      "Creating useful content",
+      "Keyword stuffing"
     ],
     "correctOption": "Keyword stuffing",
     "points": 10
@@ -244,8 +244,8 @@
   {
     "question": "What does 'SSL' stand for in SEO?",
     "options": [
-      "Secure Socket Layer",
       "Search Server Layer",
+      "Secure Socket Layer",
       "Simple Server Link",
       "Secure Server Layer"
     ],
@@ -255,9 +255,9 @@
   {
     "question": "Which of the following is considered a white-hat SEO technique?",
     "options": [
-      "Creating high-quality, original content",
       "Buying backlinks",
       "Keyword stuffing",
+      "Creating high-quality, original content",
       "Using irrelevant meta tags"
     ],
     "correctOption": "Creating high-quality, original content",
@@ -266,10 +266,10 @@
   {
     "question": "What is the purpose of 'schema markup' in SEO?",
     "options": [
-      "To provide search engines with additional information about a webpage",
       "To reduce page speed",
       "To hide content from users",
-      "To add images to a page"
+      "To add images to a page",
+      "To provide search engines with additional information about a webpage"
     ],
     "correctOption": "To provide search engines with additional information about a webpage",
     "points": 10
