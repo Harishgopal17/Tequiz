@@ -41,6 +41,25 @@ function App() {
     }
   }, [theme]);
 
+  useEffect(() => {
+    const pingBackend = async () => {
+      try {
+        const res = await fetch(`${BaseUrl}/ping`);
+        const data = await res.json();
+        console.log(data.message);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    pingBackend();
+
+    const pingInterval = setInterval(() => {
+      pingBackend();
+    }, 840000);
+
+    return () => clearInterval(pingInterval);
+  }, []);
+
   function handleTheme() {
     setTheme(theme === "dark" ? "light" : "dark");
   }

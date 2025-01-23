@@ -20,6 +20,10 @@ app.use(cors());
 // Body parser
 app.use(express.json());
 
+app.get('/ping', (req, res) => {
+  res.status(200).json({ message: 'Server is alive!' });
+});
+
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader(
